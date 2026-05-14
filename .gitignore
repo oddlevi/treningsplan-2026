@@ -1,0 +1,23 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.tar.gz
+=1.35
+
+# Sensitiv data
+data/raw/
+data/processed/
+data/*.db
+.garminconnect/
+
+# Rapporter
+rapport/*.md
+rapport/*.txt
+rapport/pdf/*.pdf
+!rapport/.gitkeep
+!rapport/pdf/.gitkeep
+
+# Claude cache
+.claude/

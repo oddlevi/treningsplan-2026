@@ -1,0 +1,9 @@
+stravalib>=2.0
+garminconnect>=0.2.20
+pandas>=2.0
+duckdb>=0.10
+plotly>=5.0
+python-dotenv>=1.0
+rich>=13.0
+click>=8.1
+streamlit>=1.35
