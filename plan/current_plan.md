@@ -109,7 +109,7 @@
 | Fre 15.05 | Rolig 🟢 | 11 | | *5:10-5:25/km, HR 125-135* | 7.5 km · 8×940m @ 4:57 HR 160 |
 | Lør 16.05 | Lang tur 🟢 | 14 | | *5:10-5:25/km, HR 125-135* | 8.2 km · 9×910m @ 4:32 HR 155 |
 | Søn 17.05 | Restitusjon 🟢 | 8 | | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **57** | | *48 min terskel* | **43 km** |
+| **Total** | | **57** | | *57 km · 48 min terskel* | **43 km** |
 
 ---
 
@@ -128,7 +128,7 @@
 | Fre 22.05 | Hvile ⚪ | - | | *-* | **Terskel** 8.8 km · 9×860m @ 3:59 HR 175 |
 | Lør 23.05 | Lang tur 🟢 | 17 | | *5:10-5:25/km, HR 125-135* | 10 km · 10×1000m @ 4:13 HR 170 |
 | Søn 24.05 | Restitusjon 🟢 | 9 | | *5:20-5:40/km, HR <130* | 4 km @ 5:48 |
-| **Total** | | **64** | | *65 min terskel* | **23 km** |
+| **Total** | | **64** | | *64 km · 65 min terskel* | **23 km** |
 
 ---
 
@@ -147,7 +147,7 @@
 | Fre 29.05 | Hvile ⚪ | - | | *-* | Hvile |
 | Lør 30.05 | Lang tur 🟢 | 18 | | *5:10-5:25/km, HR 125-135* | 1.9 km ⚽ 80 min |
 | Søn 31.05 | Restitusjon 🟢 | 8 | | *5:25-5:45/km, HR <125* | 7 km · 5×1000m @ 3:33 HR 173 |
-| **Total** | | **66** | | *68 min terskel* | **37 km** |
+| **Total** | | **66** | | *66 km · 68 min terskel* | **37 km** |
 
 ---
 
@@ -166,7 +166,7 @@
 | Fre 05.06 | Hvile ⚪ | - | | *-* | 8 km · 9×610m @ 3:28 HR 171 |
 | Lør 06.06 | **HALVMARATON** 🟡 | 21 | | *Treningsløp @ 4:15-4:20/km, HR 155-165 · Mål ~1:30-1:32* | 14.6 km (🏁 3 km @ 3:32 HR 178 + 6.2 km ⚽) |
 | Søn 07.06 | Restitusjon 🟢 | 5 | | *5:30-5:50/km, HR <120 (valgfri)* | Hvile |
-| **Total** | | **42** | | *16 min terskel* | **40 km** |
+| **Total** | | **42** | | *42 km · 16 min terskel* | **40 km** |
 
 ---
 
