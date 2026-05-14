@@ -176,7 +176,17 @@ def main():
                     st.rerun()
 
     st.divider()
-    st.caption("Kommentarer lagres lokalt i `data/kommentarer.json`")
+
+    # Eksporter kommentarer
+    if st.session_state.comments:
+        import json
+        comments_json = json.dumps(st.session_state.comments, indent=2, ensure_ascii=False)
+        st.download_button(
+            "📥 Last ned kommentarer",
+            comments_json,
+            file_name="kommentarer.json",
+            mime="application/json"
+        )
 
 
 if __name__ == "__main__":
