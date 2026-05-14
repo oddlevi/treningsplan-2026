@@ -44,6 +44,11 @@ st.markdown("""
         font-weight: 600;
         border-radius: 4px;
     }
+    /* 2024-kolonne (siste kolonne) i grå */
+    table td:last-child,
+    table th:last-child {
+        color: #999 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
