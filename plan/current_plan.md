@@ -1,5 +1,7 @@
 # Treningsplan – 2026
 
+*4 måneders plan for å slå PR fra 2024*
+
 *Marius Bakken / Norsk modell*
 
 **Periode:** 11.05.2026 – 22.09.2026 (19 uker)
