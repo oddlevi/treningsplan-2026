@@ -286,15 +286,15 @@
 
 **Volum: 70 km | Terskel: 55 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 06.07 | Hvile | - | - |
-| Tir 07.07 | Terskel 1: 5×6 min @ 3:50-4:05 | 14 km | <170 |
-| Ons 08.07 | Rolig | 12 km | <135 |
-| Tor 09.07 | Terskel 2: 6×4 min @ 3:45-3:55 | 13 km | 168-174 |
-| Fre 10.07 | Hvile | - | - |
-| Lør 11.07 | Lang tur m/tempo: 18 km (siste 5 km @ 4:30) | 18 km | <140 (tempo: 150) |
-| Søn 12.07 | Restitusjon | 8 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 06.07 | Hvile ⚪ | - | - | | Hvile |
+| Tir 07.07 | Terskel 1 🔴 | 14 | 5×6 min @ 3:50-4:05, HR <170 | | Hvile |
+| Ons 08.07 | Rolig 🟢 | 12 | 5:10-5:25/km, HR <135 | | Hvile |
+| Tor 09.07 | Terskel 2 🔴 | 13 | 6×4 min @ 3:45-3:55, HR 168-174 | | Rolig 11.6 km @ 4:50, HR 162 |
+| Fre 10.07 | Hvile ⚪ | - | - | | Hvile |
+| Lør 11.07 | Lang tur m/tempo 🟢 | 18 | Siste 5 km @ 4:30, HR <140 | | Hvile |
+| Søn 12.07 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | | Hvile |
 
 ---
 
@@ -302,15 +302,15 @@
 
 **Volum: 70 km | Terskel: 50 min | VO2: 15 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 13.07 | Hvile | - | - |
-| Tir 14.07 | VO2 Max: 5×1000m @ 3:35-3:45 | 12 km | 175-182 |
-| Ons 15.07 | Rolig | 10 km | <135 |
-| Tor 16.07 | Lett jogg + strides | 6 km | <130 |
-| **Fre 17.07** | Hvile | - | - |
-| **Lør 18.07** | **HALVMARATON KUPERT** | **21 km** | 160-170 |
-| Søn 19.07 | Hvile eller lett jogg | 5 km | <120 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 13.07 | Hvile ⚪ | - | - | | Hvile |
+| Tir 14.07 | VO2 Max 🔴 | 12 | 5×1000m @ 3:35-3:45, HR 175-182 | | Hvile |
+| Ons 15.07 | Rolig 🟢 | 10 | 5:10-5:25/km, HR <135 | | Hvile |
+| Tor 16.07 | Lett jogg + strides 🟢 | 6 | 5:30-5:50/km, HR <130 | | Hvile |
+| **Fre 17.07** | Hvile ⚪ | - | - | | Hvile |
+| **Lør 18.07** | **HALVMARATON KUPERT** 🔴 | **21** | HR 160-170 | | Rolig 7 km @ 5:27, HR 141 |
+| Søn 19.07 | Hvile/lett 🟢 | 5 | 5:30-5:50/km, HR <120 | | Hvile |
 
 ---
 
@@ -318,15 +318,15 @@
 
 **Volum: 75 km | Terskel: 60 min | VO2: 18 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 20.07 | Hvile | - | - |
-| Tir 21.07 | Terskel 1: 4×7 min @ 3:50-4:05 | 14 km | <170 |
-| Ons 22.07 | Rolig | 12 km | <135 |
-| Tor 23.07 | VO2 Max: 6×1000m @ 3:35-3:42 | 13 km | 175-182 |
-| Fre 24.07 | Rolig | 8 km | <135 |
-| Lør 25.07 | Lang tur | 20 km | <135 |
-| Søn 26.07 | Restitusjon | 8 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 20.07 | Hvile ⚪ | - | - | | Hvile |
+| Tir 21.07 | Terskel 1 🔴 | 14 | 4×7 min @ 3:50-4:05, HR <170 | | Hvile |
+| Ons 22.07 | Rolig 🟢 | 12 | 5:10-5:25/km, HR <135 | | Hvile |
+| Tor 23.07 | VO2 Max 🔴 | 13 | 6×1000m @ 3:35-3:42, HR 175-182 | | Hvile |
+| Fre 24.07 | Rolig 🟢 | 8 | 5:10-5:25/km, HR <135 | | Tempo 10 km @ 4:02, HR 176 |
+| Lør 25.07 | Lang tur 🟢 | 20 | 5:10-5:25/km, HR <135 | | Rolig 10 km @ 5:03, HR 161 |
+| Søn 26.07 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | | Rolig 5 km @ 5:35, HR 136 |
 
 ---
 
@@ -334,15 +334,15 @@
 
 **Volum: 50 km | Terskel: 25 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 27.07 | Hvile | - | - |
-| Tir 28.07 | Lett terskel: 5×3 min @ 3:55-4:10 | 10 km | <170 |
-| Ons 29.07 | Rolig | 10 km | <135 |
-| Tor 30.07 | Rolig + strides | 8 km | <135 |
-| Fre 31.07 | Hvile | - | - |
-| Lør 01.08 | Lang tur (rolig) | 14 km | <135 |
-| Søn 02.08 | Restitusjon | 6 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 27.07 | Hvile ⚪ | - | - | | Hvile |
+| Tir 28.07 | Lett terskel 🟡 | 10 | 5×3 min @ 3:55-4:10, HR <170 | | Hvile |
+| Ons 29.07 | Rolig 🟢 | 10 | 5:10-5:25/km, HR <135 | | Rolig 9 km @ 5:25, HR 161 |
+| Tor 30.07 | Rolig + strides 🟢 | 8 | 5:10-5:25/km, HR <135 | | Rolig 10.7 km @ 5:04, HR 168 |
+| Fre 31.07 | Hvile ⚪ | - | - | | Langtur 13 km @ 7:23, HR 181 |
+| Lør 01.08 | Lang tur 🟢 | 14 | 5:10-5:25/km, HR <135 | | Langtur 14.5 km @ 5:05, HR 168 |
+| Søn 02.08 | Restitusjon 🟢 | 6 | 5:20-5:40/km, HR <130 | | Hvile |
 
 ---
 ---
