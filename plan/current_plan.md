@@ -102,10 +102,10 @@
 
 | Dag | Økt | Km | Detaljer |
 |-----|-----|---:|----------|
-| Man 11.05 | ✅ Rolig | 5.7 | Faktisk: 6:30/km, HR 123 |
-| Tir 12.05 | ✅ Terskel 1 | 13.8 | Faktisk: 4:57/km, HR 145 |
-| Ons 13.05 | ✅ Hvile | - | - |
-| Tor 14.05 | ✅ Terskel 2 | 12.2 | Faktisk: 5:26/km, HR 139 |
+| ✅ Man 11.05 | Hvile ⚪ | - | *Kjørte rolig: 5.7 km @ 6:30/km, HR 123/137* |
+| ✅ Tir 12.05 | Terskel 1 🔴 | 13.8 | 4 × 6 min @ 3:55-4:05/km (24 min)<br>Maks HR: <170, Pause: 90 sek<br>**Faktisk: 4:57/km, HR 145/178** |
+| ✅ Ons 13.05 | Hvile ⚪ | - | - |
+| ✅ Tor 14.05 | Terskel 2 🔴 | 12.2 | 8 × 3 min @ 3:45-4:00/km (24 min)<br>Maks HR: 168-174, Pause: 60 sek<br>**Faktisk: 5:26/km, HR 139/173** |
 | Fre 15.05 | Rolig 🟢 | 11 | 5:10-5:25/km, HR 125-135 |
 | Lør 16.05 | Lang tur 🟢 | 14 | 5:10-5:25/km, HR 125-135 |
 | Søn 17.05 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 |
