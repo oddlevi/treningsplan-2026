@@ -141,8 +141,6 @@ def main():
         st.caption(f"💬 {num_comments} kommentarer")
 
     # Hovedinnhold
-    st.title("🏃 Treningsplan 2026")
-
     if selected == "Full plan":
         display_sections = sections
     else:
