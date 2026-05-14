@@ -144,7 +144,6 @@ def main():
     st.title("🏃 Treningsplan 2026")
 
     if selected == "Full plan":
-        st.caption("Legg til kommentarer under hver seksjon")
         display_sections = sections
     else:
         st.caption(f"Viser: {selected}")
