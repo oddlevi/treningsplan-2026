@@ -100,16 +100,16 @@
 
 **Fokus:** Etabler rytme med to terskeløkter. Hold intensiteten kontrollert.
 
-| Dag | Økt | Km | Detaljer | Planlagt |
-|-----|-----|---:|----------|----------|
-| ✅ Man 11.05 | Rolig | 5.7 | 6:30/km, maks HR 137 | *Hvile* |
-| ✅ Tir 12.05 | Terskel 1 | 13.8 | 8 × 1000m @ 3:47-4:08/km, maks HR 165→177, pause ~45s | *12 km · 4×6 min @ 3:55-4:05 · HR <170* |
-| ✅ Ons 13.05 | Hvile | - | - | *Hvile* |
-| ✅ Tor 14.05 | Terskel 2 | 12.2 | 6 × 3 min @ 3:40-3:55/km, maks HR 170→172, pause ~60s | *12 km · 8×3 min @ 3:45-4:00 · HR 168-174* |
-| Fre 15.05 | Rolig 🟢 | 11 | 5:10-5:25/km, HR 125-135 | |
-| Lør 16.05 | Lang tur 🟢 | 14 | 5:10-5:25/km, HR 125-135 | |
-| Søn 17.05 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | |
-| **Total** | | **57** | **48 min terskel** | |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| ✅ Man 11.05 | Rolig | 5.7 | 6:30/km, maks HR 137 | *Hvile* | 14 km @ 5:22 |
+| ✅ Tir 12.05 | Terskel 1 | 13.8 | 8 × 1000m @ 3:47-4:08/km, maks HR 165→177, pause ~45s | *12 km · 4×6 min @ 3:55-4:05 · HR <170* | Hvile |
+| ✅ Ons 13.05 | Hvile | - | - | *Hvile* | Hvile |
+| ✅ Tor 14.05 | Terskel 2 | 12.2 | 6 × 3 min @ 3:40-3:55/km, maks HR 170→172, pause ~60s | *12 km · 8×3 min @ 3:45-4:00 · HR 168-174* | 9.2 km @ 4:30 |
+| Fre 15.05 | Rolig 🟢 | 11 | 5:10-5:25/km, HR 125-135 | | 7.5 km @ 5:17 |
+| Lør 16.05 | Lang tur 🟢 | 14 | 5:10-5:25/km, HR 125-135 | | 8.2 km @ 5:01 |
+| Søn 17.05 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | | Hvile |
+| **Total** | | **57** | **48 min terskel** | | |
 
 ---
 
@@ -119,16 +119,16 @@
 
 **Fokus:** Øk terskelarbeid (+11 min). Bygg volum gradvis.
 
-| Dag | Økt | Km | Detaljer |
-|-----|-----|---:|----------|
-| Man 18.05 | Hvile ⚪ | - | - |
-| Tir 19.05 | Terskel 1 🔴 | 13 | 5 × 7 min @ 3:55-4:10/km (35 min) · Maks HR: <170, Pause: 90 sek |
-| Ons 20.05 | Rolig 🟢 | 12 | 5:10-5:25/km, HR 125-135 |
-| Tor 21.05 | Terskel 2 🔴 | 13 | 10 × 3 min @ 3:45-4:00/km (30 min) · Maks HR: 168-174, Pause: 60 sek |
-| Fre 22.05 | Hvile ⚪ | - | - |
-| Lør 23.05 | Lang tur 🟢 | 17 | 5:10-5:25/km, HR 125-135 |
-| Søn 24.05 | Restitusjon 🟢 | 9 | 5:20-5:40/km, HR <130 |
-| **Total** | | **64** | **65 min terskel** |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 18.05 | Hvile ⚪ | - | - | | Hvile |
+| Tir 19.05 | Terskel 1 🔴 | 13 | 5 × 7 min @ 3:55-4:10/km (35 min) · Maks HR: <170, Pause: 90 sek | | Hvile |
+| Ons 20.05 | Rolig 🟢 | 12 | 5:10-5:25/km, HR 125-135 | | Hvile |
+| Tor 21.05 | Terskel 2 🔴 | 13 | 10 × 3 min @ 3:45-4:00/km (30 min) · Maks HR: 168-174, Pause: 60 sek | | Hvile |
+| Fre 22.05 | Hvile ⚪ | - | - | | 8.8 km @ 4:42 |
+| Lør 23.05 | Lang tur 🟢 | 17 | 5:10-5:25/km, HR 125-135 | | 10 km @ 4:40 |
+| Søn 24.05 | Restitusjon 🟢 | 9 | 5:20-5:40/km, HR <130 | | 4 km @ 5:48 |
+| **Total** | | **64** | **65 min terskel** | | |
 
 ---
 
@@ -138,16 +138,16 @@
 
 **Fokus:** Høyeste volum og terskelarbeid. Peak-uke.
 
-| Dag | Økt | Km | Detaljer |
-|-----|-----|---:|----------|
-| Man 25.05 | Hvile ⚪ | - | - |
-| Tir 26.05 | Terskel 1 🔴 | 14 | 6 × 6 min @ 3:50-4:05/km (36 min) · Maks HR: <170, Pause: 90 sek |
-| Ons 27.05 | Rolig 🟢 | 12 | 5:10-5:25/km, HR 125-135 |
-| Tor 28.05 | Terskel 2 🔴 | 14 | 8 × 4 min @ 3:45-4:00/km (32 min) · Maks HR: 168-174, Pause: 75 sek |
-| Fre 29.05 | Hvile ⚪ | - | - |
-| Lør 30.05 | Lang tur 🟢 | 18 | 5:10-5:25/km, HR 125-135 |
-| Søn 31.05 | Restitusjon 🟢 | 8 | 5:25-5:45/km, HR <125 |
-| **Total** | | **66** | **68 min terskel** |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 25.05 | Hvile ⚪ | - | - | | Hvile |
+| Tir 26.05 | Terskel 1 🔴 | 14 | 6 × 6 min @ 3:50-4:05/km (36 min) · Maks HR: <170, Pause: 90 sek | | Hvile |
+| Ons 27.05 | Rolig 🟢 | 12 | 5:10-5:25/km, HR 125-135 | | Hvile |
+| Tor 28.05 | Terskel 2 🔴 | 14 | 8 × 4 min @ 3:45-4:00/km (32 min) · Maks HR: 168-174, Pause: 75 sek | | 14.5 km @ 5:37 |
+| Fre 29.05 | Hvile ⚪ | - | - | | Hvile |
+| Lør 30.05 | Lang tur 🟢 | 18 | 5:10-5:25/km, HR 125-135 | | Hvile |
+| Søn 31.05 | Restitusjon 🟢 | 8 | 5:25-5:45/km, HR <125 | | 7 km @ 5:14 |
+| **Total** | | **66** | **68 min terskel** | | |
 
 ---
 
@@ -157,16 +157,16 @@
 
 **Fokus:** Nedtrapping. La kroppen absorbere de siste 3 ukenes arbeid.
 
-| Dag | Økt | Km | Detaljer |
-|-----|-----|---:|----------|
-| Man 01.06 | Hvile ⚪ | - | - |
-| Tir 02.06 | Lett terskel 🟡 | 8 | 4 × 4 min @ 3:55-4:10/km (16 min) · Maks HR: <170, Pause: 90 sek |
-| Ons 03.06 | Hvile ⚪ | - | - |
-| Tor 04.06 | Rolig 🟢 | 8 | 5:10-5:25/km, HR 125-135 |
-| Fre 05.06 | Hvile ⚪ | - | - |
-| Lør 06.06 | **HALVMARATON** 🟡 | 21 | Treningsløp @ 4:15-4:20/km, HR 155-165 · Start 4:25-4:30, bygg til 4:15-4:20 fra km 8 · Mål: ~1:30-1:32 – ikke kjør deg ut |
-| Søn 07.06 | Restitusjon 🟢 | 5 | 5:30-5:50/km, HR <120 (valgfri) |
-| **Total** | | **42** | **16 min terskel** |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 01.06 | Hvile ⚪ | - | - | | Hvile |
+| Tir 02.06 | Lett terskel 🟡 | 8 | 4 × 4 min @ 3:55-4:10/km (16 min) · Maks HR: <170, Pause: 90 sek | | 14.1 km @ 4:26 |
+| Ons 03.06 | Hvile ⚪ | - | - | | Hvile |
+| Tor 04.06 | Rolig 🟢 | 8 | 5:10-5:25/km, HR 125-135 | | Hvile |
+| Fre 05.06 | Hvile ⚪ | - | - | | 8 km @ 5:33 |
+| Lør 06.06 | **HALVMARATON** 🟡 | 21 | Treningsløp @ 4:15-4:20/km, HR 155-165 · Start 4:25-4:30, bygg til 4:15-4:20 fra km 8 · Mål: ~1:30-1:32 – ikke kjør deg ut | | 8.4 km @ 4:40 |
+| Søn 07.06 | Restitusjon 🟢 | 5 | 5:30-5:50/km, HR <120 (valgfri) | | Hvile |
+| **Total** | | **42** | **16 min terskel** | | |
 
 ---
 
