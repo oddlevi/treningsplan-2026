@@ -379,15 +379,15 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 
 **Volum: 70 km | Terskel: 40 min | VO2: 20 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 03.08 | Hvile | - | - |
-| Tir 04.08 | Terskel 1: 4×6 min @ 3:50-4:05 | 13 km | <170 |
-| Ons 05.08 | Rolig | 12 km | <135 |
-| Tor 06.08 | 10K-pace: 5×1000m @ 3:40-3:48 | 12 km | 168-176 |
-| Fre 07.08 | Hvile | - | - |
-| Lør 08.08 | Lang tur m/tempo: 18 km (siste 4 km @ 4:20) | 18 km | <140 (tempo: 155) |
-| Søn 09.08 | Restitusjon | 8 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 03.08 | Hvile ⚪ | - | - | | Hvile |
+| Tir 04.08 | Terskel 1 🔴 | 13 | 4×6 min @ 3:50-4:05, HR <170 | | Hvile |
+| Ons 05.08 | Rolig 🟢 | 12 | 5:10-5:25/km, HR <135 | | Rolig 11 km @ 4:43, HR 168 |
+| Tor 06.08 | 10K-pace 🔴 | 12 | 5×1000m @ 3:40-3:48, HR 168-176 | | Langtur 16 km @ 5:02, HR 178 |
+| Fre 07.08 | Hvile ⚪ | - | - | | Hvile |
+| Lør 08.08 | Lang tur m/tempo 🟢 | 18 | Siste 4 km @ 4:20, HR <140 | | Rolig 7 km @ 5:05, HR 137 |
+| Søn 09.08 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | | Rolig 10.4 km @ 6:04, HR 144 |
 
 ---
 
@@ -395,15 +395,15 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 
 **Volum: 72 km | Terskel: 35 min | VO2: 24 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 10.08 | Hvile | - | - |
-| Tir 11.08 | 10K-pace: 6×1000m @ 3:38-3:45 | 13 km | 168-176 |
-| Ons 12.08 | Rolig | 12 km | <135 |
-| Tor 13.08 | Terskel 2: 5×4 min @ 3:45-3:55 | 12 km | 168-174 |
-| Fre 14.08 | Rolig | 8 km | <135 |
-| Lør 15.08 | Lang tur | 18 km | <135 |
-| Søn 16.08 | Restitusjon | 9 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 10.08 | Hvile ⚪ | - | - | | Hvile |
+| Tir 11.08 | 10K-pace 🔴 | 13 | 6×1000m @ 3:38-3:45, HR 168-176 | | Hvile |
+| Ons 12.08 | Rolig 🟢 | 12 | 5:10-5:25/km, HR <135 | | Rolig 10 km @ 5:10, HR 149 |
+| Tor 13.08 | Terskel 2 🔴 | 12 | 5×4 min @ 3:45-3:55, HR 168-174 | | Tempo 13 km @ 4:55, HR 184 |
+| Fre 14.08 | Rolig 🟢 | 8 | 5:10-5:25/km, HR <135 | | Rolig 7.2 km @ 4:50, HR 158 |
+| Lør 15.08 | Lang tur 🟢 | 18 | 5:10-5:25/km, HR <135 | | Hvile |
+| Søn 16.08 | Restitusjon 🟢 | 9 | 5:20-5:40/km, HR <130 | | Hvile |
 
 ---
 
@@ -411,15 +411,15 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 
 **Volum: 68 km | Terskel: 30 min | VO2: 20 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 17.08 | Hvile | - | - |
-| Tir 18.08 | 10K-pace: 4×1200m @ 3:38-3:45 | 12 km | 168-176 |
-| Ons 19.08 | Rolig | 11 km | <135 |
-| Tor 20.08 | Terskel + speed: 3×5 min @ 4:00 + 4×400m @ 3:25 | 12 km | 168-178 |
-| Fre 21.08 | Hvile | - | - |
-| Lør 22.08 | Lang tur (rolig) | 16 km | <135 |
-| Søn 23.08 | Restitusjon | 8 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 17.08 | Hvile ⚪ | - | - | | Hvile |
+| Tir 18.08 | 10K-pace 🔴 | 12 | 4×1200m @ 3:38-3:45, HR 168-176 | | Hvile |
+| Ons 19.08 | Rolig 🟢 | 11 | 5:10-5:25/km, HR <135 | | Rolig 7 km @ 5:00, HR 152 |
+| Tor 20.08 | Terskel + speed 🔴 | 12 | 3×5 min @ 4:00 + 4×400m @ 3:25, HR 168-178 | | Intervall 21.2 km @ 3:58, HR 180 |
+| Fre 21.08 | Hvile ⚪ | - | - | | Hvile |
+| Lør 22.08 | Lang tur 🟢 | 16 | 5:10-5:25/km, HR <135 | | Rolig 11 km @ 5:23, HR 162 |
+| Søn 23.08 | Restitusjon 🟢 | 8 | 5:20-5:40/km, HR <130 | | Hvile |
 
 ---
 
@@ -427,15 +427,15 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 
 **Volum: 45 km | Terskel: 15 min | VO2: 12 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 24.08 | Hvile | - | - |
-| Tir 25.08 | 10K-pace: 3×1000m @ 3:40-3:45 | 10 km | 168-176 |
-| Ons 26.08 | Rolig | 8 km | <135 |
-| Tor 27.08 | Lett terskel: 3×3 min @ 3:55-4:05 + strides | 8 km | <170 |
-| Fre 28.08 | Rolig | 6 km | <130 |
-| Lør 29.08 | Lett jogg + 4×100m strides | 5 km | <130 |
-| Søn 30.08 | Hvile | - | - |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 24.08 | Hvile ⚪ | - | - | | Rolig 9.3 km @ 5:18, HR 149 |
+| Tir 25.08 | 10K-pace 🔴 | 10 | 3×1000m @ 3:40-3:45, HR 168-176 | | Langtur 15.3 km @ 5:28, HR 171 |
+| Ons 26.08 | Rolig 🟢 | 8 | 5:10-5:25/km, HR <135 | | Rolig 5.4 km @ 5:36, HR 132 |
+| Tor 27.08 | Lett terskel 🟡 | 8 | 3×3 min @ 3:55-4:05 + strides, HR <170 | | Tempo 11 km @ 4:45, HR 170 |
+| Fre 28.08 | Rolig 🟢 | 6 | 5:10-5:25/km, HR <130 | | Hvile |
+| Lør 29.08 | Lett jogg 🟢 | 5 | Lett jogg + 4×100m strides, HR <130 | | Rolig 6 km @ 5:22, HR 162 |
+| Søn 30.08 | Hvile ⚪ | - | - | | Intervall 10.4 km (flere økter) |
 
 ---
 
@@ -487,15 +487,15 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 **Volum: 55 km | Terskel: 40 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| **Man 01.09** | **10K RACE** | **10 km** | 175-188 |
-| Tir 02.09 | Hvile | - | - |
-| Ons 03.09 | Rolig | 8 km | <130 |
-| Tor 04.09 | Halvmaraton-tempo: 4×5 min @ 4:00-4:05 | 12 km | 165-172 |
-| Fre 05.09 | Hvile | - | - |
-| Lør 06.09 | Lang tur | 16 km | <135 |
-| Søn 07.09 | Restitusjon | 6 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| **Man 01.09** | **10K RACE 🏁** | **10** | **Mål: Sub 37:00**, HR 175-188 | | Hvile |
+| Tir 02.09 | Hvile ⚪ | - | - | | Rolig 6 km @ 5:25, HR 143 |
+| Ons 03.09 | Rolig 🟢 | 8 | 5:20-5:40/km, HR <130 | | Tempo 9 km @ 4:43, HR 174 |
+| Tor 04.09 | Halv-tempo 🔴 | 12 | 4×5 min @ 4:00-4:05, HR 165-172 | | Rolig 9.3 km @ 5:23, HR 160 |
+| Fre 05.09 | Hvile ⚪ | - | - | | Hvile |
+| Lør 06.09 | Lang tur 🟢 | 16 | 5:10-5:25/km, HR <135 | | Rolig 4.4 km @ 5:32, HR 164 |
+| Søn 07.09 | Restitusjon 🟢 | 6 | 5:20-5:40/km, HR <130 | | Intervall 11 km, 7.2 km @ 3:45, HR 176 |
 
 ---
 
@@ -503,15 +503,15 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 **Volum: 65 km | Terskel: 50 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 08.09 | Hvile | - | - |
-| Tir 09.09 | Halvmaraton-tempo: 3×8 min @ 3:58-4:05 | 14 km | 165-172 |
-| Ons 10.09 | Rolig | 11 km | <135 |
-| Tor 11.09 | Terskel 2: 6×4 min @ 3:45-3:55 | 13 km | 168-174 |
-| Fre 12.09 | Hvile | - | - |
-| Lør 13.09 | Lang tur m/progresjon: 18 km (siste 6 km @ 4:05) | 18 km | <140 (prog: 160) |
-| Søn 14.09 | Restitusjon | 7 km | <130 |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 08.09 | Hvile ⚪ | - | - | | Hvile |
+| Tir 09.09 | Halv-tempo 🔴 | 14 | 3×8 min @ 3:58-4:05, HR 165-172 | | Rolig 4.6 km @ 8:44, HR 121 |
+| Ons 10.09 | Rolig 🟢 | 11 | 5:10-5:25/km, HR <135 | | Intervall 8.9 km, 6 km @ 3:53, HR 173 |
+| Tor 11.09 | Terskel 2 🔴 | 13 | 6×4 min @ 3:45-3:55, HR 168-174 | | Hvile |
+| Fre 12.09 | Hvile ⚪ | - | - | | Hvile |
+| Lør 13.09 | Lang tur m/prog 🟡 | 18 | Siste 6 km @ 4:05, HR <140→160 | | Hvile |
+| Søn 14.09 | Restitusjon 🟢 | 7 | 5:20-5:40/km, HR <130 | | Hvile |
 
 ---
 
@@ -519,15 +519,15 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 **Volum: 40 km | Terskel: 20 min**
 
-| Dag | Økt | Distanse | HR |
-|-----|-----|----------|-----|
-| Man 15.09 | Hvile | - | - |
-| Tir 16.09 | Halv-tempo: 2×6 min @ 4:00-4:05 | 10 km | 165-172 |
-| Ons 17.09 | Rolig | 8 km | <130 |
-| Tor 18.09 | Lett jogg + 5×100m strides | 6 km | <130 |
-| Fre 19.09 | Rolig | 5 km | <125 |
-| Lør 20.09 | Hvile eller 3 km jogg | 3 km | <120 |
-| Søn 21.09 | Hvile | - | - |
+| Dag | Økt | Km | Detaljer | Planlagt | 2024 |
+|-----|-----|---:|----------|----------|------|
+| Man 15.09 | Hvile ⚪ | - | - | | Rolig 7.9 km @ 8:15, HR 176 |
+| Tir 16.09 | Halv-tempo 🔴 | 10 | 2×6 min @ 4:00-4:05, HR 165-172 | | Hvile |
+| Ons 17.09 | Rolig 🟢 | 8 | 5:20-5:40/km, HR <130 | | Intervall 15.3 km, 10 km @ 3:39, HR 181 |
+| Tor 18.09 | Lett jogg 🟢 | 6 | Lett jogg + 5×100m strides, HR <130 | | Hvile |
+| Fre 19.09 | Rolig 🟢 | 5 | 5:20-5:40/km, HR <125 | | Hvile |
+| Lør 20.09 | Hvile/jogg ⚪ | 3 | Valgfri 3 km jogg, HR <120 | | Hvile |
+| Søn 21.09 | Hvile ⚪ | - | - | | Hvile |
 
 ---
 
