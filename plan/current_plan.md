@@ -1,6 +1,4 @@
-# Treningsplan – 2026
-
-*4 måneders plan for å slå PR fra 2024*
+# Treningsplan 2026 – 4 måneders plan for å slå PR fra 2024
 
 *Marius Bakken / Norsk modell*
 
