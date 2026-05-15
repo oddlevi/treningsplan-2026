@@ -223,7 +223,7 @@ def format_pace(sek: float) -> str:
 
 
 def hent_planlagt_okt(dato: str) -> Optional[PlanlagtOkt]:
-    """Parser planlagt økt fra current_plan.md."""
+    """Parser planlagt økt fra current_plan.md (tabellformat)."""
     if not PLAN_PATH.exists():
         return None
 
@@ -234,46 +234,68 @@ def hent_planlagt_okt(dato: str) -> Optional[PlanlagtOkt]:
     try:
         dt = datetime.strptime(dato, '%Y-%m-%d')
         dag_maned = dt.strftime('%d.%m')
+        ukedag_kort = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'][dt.weekday()]
         ukedag = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag'][dt.weekday()]
     except:
         return None
 
-    # Finn økt-header
-    pattern = rf'###\s+{ukedag}\s+{dag_maned}\s+[–-]\s+(.+?)\s*[🔴🟢🟡⚪]'
+    # Finn tabellrad for denne datoen
+    # Format: | Fre 15.05 | Lang tur 🟢 | | | *14* | *5:10-5:25/km, HR 125-135* | ... |
+    # eller: | ✅ Tor 14.05 | Terskel 2 | **12.2** | ... |
+    pattern = rf'\|\s*(?:✅\s*)?{ukedag_kort}\s+{dag_maned}[^|]*\|\s*([^|]+)\|'
     match = re.search(pattern, content)
 
     if not match:
         return None
 
     okt_type = match.group(1).strip()
+    # Fjern emoji-markører
+    okt_type = re.sub(r'[🔴🟢🟡⚪]', '', okt_type).strip()
 
-    # Finn seksjonen
-    start_idx = match.start()
-    next_header = re.search(r'\n###\s+', content[start_idx + 10:])
-    end_idx = start_idx + 10 + next_header.start() if next_header else len(content)
-    okt_section = content[start_idx:end_idx]
+    # Finn hele raden
+    line_start = content.rfind('\n', 0, match.start()) + 1
+    line_end = content.find('\n', match.end())
+    full_line = content[line_start:line_end] if line_end > 0 else content[line_start:]
 
-    # Parse distanse
-    dist_match = re.search(r'\*\*Distanse\*\*\s*\|\s*(\d+(?:\.\d+)?)\s*km', okt_section)
-    distanse = float(dist_match.group(1)) if dist_match else 0
+    # Parse kolonner fra tabellrad
+    columns = [c.strip() for c in full_line.split('|')]
+    # Typisk: ['', 'Dag', 'Økt', 'Km gjennomført', 'Gjennomført', 'Km planlagt', 'Planlagt', '2024', '']
 
-    # Parse pace
-    pace_match = re.search(r'\*\*Pace\*\*\s*\|\s*([\d:]+(?:-[\d:]+)?/km)', okt_section)
-    pace_range = pace_match.group(1) if pace_match else ''
+    # Finn planlagt km (kolonne med *tall*)
+    distanse = 0
+    pace_range = ''
 
-    # Parse terskelarbeid
-    terskel_match = re.search(r'\*\*Terskelarbeid\*\*\s*\|\s*(\d+)\s*min', okt_section)
-    terskelarbeid = int(terskel_match.group(1)) if terskel_match else 0
+    for col in columns:
+        # Planlagt km: *14* eller *12*
+        km_match = re.search(r'\*(\d+(?:\.\d+)?)\*', col)
+        if km_match and not pace_range:  # Første tall er km
+            distanse = float(km_match.group(1))
 
-    # Parse pace til sekunder
+        # Planlagt pace: *5:10-5:25/km* eller i beskrivelse
+        pace_match = re.search(r'(\d:\d{2}-\d:\d{2})/km', col)
+        if pace_match:
+            pace_range = pace_match.group(1) + '/km'
+
+    # Parse pace til sekunder basert på økttype
     if not pace_range and 'terskel 1' in okt_type.lower():
         pace_min_s, pace_max_s = PACE_ZONES['terskel_1']
+        pace_range = '3:55-4:10/km'
     elif not pace_range and 'terskel 2' in okt_type.lower():
         pace_min_s, pace_max_s = PACE_ZONES['terskel_2']
+        pace_range = '3:45-4:00/km'
     elif not pace_range and any(x in okt_type.lower() for x in ['rolig', 'restitusjon', 'lang tur']):
         pace_min_s, pace_max_s = PACE_ZONES['rolig_sone2']
+        pace_range = '5:10-5:25/km'
     else:
         pace_min_s, pace_max_s = parse_pace_til_sekunder(pace_range)
+
+    # Beregn terskelarbeid fra økttype
+    terskelarbeid = 0
+    if 'terskel' in okt_type.lower():
+        # Sjekk for intervall-beskrivelse i raden
+        intervall_match = re.search(r'(\d+)[×x](\d+)\s*min', full_line)
+        if intervall_match:
+            terskelarbeid = int(intervall_match.group(1)) * int(intervall_match.group(2))
 
     return PlanlagtOkt(
         dag=ukedag,
@@ -431,10 +453,37 @@ def lagre_evaluering(evaluering: Evaluering):
     conn.close()
 
 
-def vis_evaluering(dato: str = None):
+def sync_data():
+    """Syncer data fra Garmin/Strava."""
+    import subprocess
+
+    console.print("[dim]Syncer data fra Garmin...[/dim]")
+    try:
+        result = subprocess.run(
+            [str(PROJECT_ROOT / ".venv" / "bin" / "python"),
+             str(PROJECT_ROOT / "scripts" / "fetch_garmin.py"),
+             "--days", "3"],
+            capture_output=True,
+            text=True,
+            cwd=PROJECT_ROOT
+        )
+        if result.returncode == 0:
+            console.print("[dim]✓ Sync fullført[/dim]")
+        else:
+            console.print(f"[yellow]Sync feilet: {result.stderr[:100]}[/yellow]")
+    except Exception as e:
+        console.print(f"[yellow]Kunne ikke synce: {e}[/yellow]")
+
+
+def vis_evaluering(dato: str = None, skip_sync: bool = False):
     """Hovedfunksjon som viser økt-evaluering."""
 
     console.print(f"\n[bold]🏃 ØKT-EVALUERING[/bold]\n")
+
+    # Sync først
+    if not skip_sync:
+        sync_data()
+        console.print()
 
     # Hent data
     faktisk = hent_siste_okt(dato)
@@ -569,9 +618,10 @@ def main():
 
     parser = argparse.ArgumentParser(description='Evaluér siste økt')
     parser.add_argument('--dato', type=str, help='Dato å evaluere (YYYY-MM-DD)')
+    parser.add_argument('--no-sync', action='store_true', help='Hopp over sync')
     args = parser.parse_args()
 
-    vis_evaluering(args.dato)
+    vis_evaluering(args.dato, skip_sync=args.no_sync)
 
 
 if __name__ == '__main__':
