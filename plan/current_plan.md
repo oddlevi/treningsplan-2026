@@ -96,7 +96,7 @@
 
 # UKE 1
 
-**11.05 – 17.05.2026 | Volum: 57 km | Terskel: 48 min**
+**11.05 – 17.05.2026 | Volum: 46 km | Terskel: 48 min**
 
 **Fokus:** Etabler rytme med to terskeløkter. Hold intensiteten kontrollert.
 
@@ -109,7 +109,7 @@
 | Fre 15.05 | Lang tur 🟢 | | | *14* | *5:10-5:25/km, HR 125-135* | Hvile |
 | Lør 16.05 | Hvile ⚪ | | | *-* | *-* | Hvile |
 | Søn 17.05 🇳🇴 | Rolig 🟢 | | | *8* | *5:20-5:40/km, HR <130 · 17. mai-tur!* | Hvile |
-| **Total** | | **31.7** | | *57* | *48 min terskel* | 27 km |
+| **Total** | | **31.7** | | *46* | *48 min terskel* | 27 km |
 
 ---
 
