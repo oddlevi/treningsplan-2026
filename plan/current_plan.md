@@ -85,11 +85,11 @@
 
 | Uke | Volum | Terskelarbeid | Langtur | Fokus |
 |-----|-------|---------------|---------|-------|
-| 1 (11.05) | 60 km | 54 min | 16 km | Etabler rytme |
+| 1 (11.05) | 52 km | 48 min | 14 km | Etabler rytme |
 | 2 (18.05) | 64 km | 65 min | 17 km | Bygg volum |
 | 3 (25.05) | 66 km | 68 min | 18 km | Peak-uke |
 | 4 (01.06) | 42 km | 16 min | 21 km | Nedtrapping → Halvmaraton 06.06 |
-| **Total** | **232 km** | **203 min** | - | - |
+| **Total** | **224 km** | **197 min** | - | - |
 
 ---
 ---
@@ -569,12 +569,12 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 | Blokk | Uker | Volum | Terskel | VO2/Race |
 |-------|------|-------|---------|----------|
-| 1 – Base | 1-4 | 225 km | 203 min | - |
+| 1 – Base | 1-4 | 224 km | 197 min | - |
 | 2 – Aerob | 5-8 | 250 km | 185 min | - |
 | 3 – Terskel | 9-12 | 265 km | 190 min | 33 min |
 | 4 – 10K | 13-16 | 255 km | 120 min | 76 min |
 | 5 – Halv | 17-19 | 160 km | 110 min | - |
-| **Total** | **19 uker** | **1155 km** | **808 min** | **109 min** |
+| **Total** | **19 uker** | **1154 km** | **802 min** | **109 min** |
 
 ## Løpskalender
 
