@@ -88,7 +88,7 @@
 | 1 | 60 km | 54 min | 16 km | Etabler rytme |
 | 2 | 64 km | 65 min | 17 km | Bygg volum |
 | 3 | 66 km | 68 min | 18 km | Peak-uke |
-| 4 | 35 km | 16 min | 12 km | Nedtrapping |
+| 4 | 35 km | 16 min | 12 km | Nedtrapping → Halvmaraton 06.06 |
 | **Total** | **225 km** | **203 min** | - | - |
 
 ---
