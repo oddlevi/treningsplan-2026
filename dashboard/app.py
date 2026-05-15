@@ -187,14 +187,15 @@ def main():
 
     # Scroll til valgt seksjon
     if scroll_to:
-        st.markdown(f"""
+        import streamlit.components.v1 as components
+        components.html(f"""
         <script>
-            var element = document.getElementById("{scroll_to}");
+            var element = window.parent.document.getElementById("{scroll_to}");
             if (element) {{
                 element.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
             }}
         </script>
-        """, unsafe_allow_html=True)
+        """, height=0)
 
     # Eksporter kommentarer
     if st.session_state.comments:
