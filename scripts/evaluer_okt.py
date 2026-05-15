@@ -427,6 +427,153 @@ def generer_raad(faktisk: FaktiskOkt, planlagt: Optional[PlanlagtOkt], klassifis
     return raad[:3]  # Max 3 råd
 
 
+def oppdater_plan_med_faktisk(faktisk: FaktiskOkt):
+    """Oppdaterer planen med gjennomført økt."""
+    if not PLAN_PATH.exists():
+        return False
+
+    with open(PLAN_PATH, 'r') as f:
+        content = f.read()
+
+    # Parse dato
+    try:
+        dt = datetime.strptime(faktisk.dato, '%Y-%m-%d')
+        dag_maned = dt.strftime('%d.%m')
+        ukedag_kort = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'][dt.weekday()]
+    except:
+        return False
+
+    # Finn tabellrad for denne datoen
+    # Format: | Fre 15.05 | Lang tur 🟢 | | | *14* | *5:10-5:25/km* | 2024 |
+    pattern = rf'(\|\s*)({ukedag_kort}\s+{dag_maned}[^|]*\|[^|]*\|)\s*\|([^|]*)\|'
+    match = re.search(pattern, content)
+
+    if not match:
+        # Prøv også med emoji-prefix (✅)
+        pattern = rf'(\|\s*)(✅\s*{ukedag_kort}\s+{dag_maned}[^|]*\|[^|]*\|)\s*\|([^|]*)\|'
+        match = re.search(pattern, content)
+
+    if not match:
+        console.print(f"[yellow]Kunne ikke finne rad for {dag_maned} i planen[/yellow]")
+        return False
+
+    # Hent planlagt økt for å sjekke type
+    planlagt = hent_planlagt_okt(faktisk.dato)
+
+    # Bruk snitt-HR for rolige økter, maks-HR for harde økter
+    er_rolig_okt = False
+    if planlagt:
+        okt_type_lower = planlagt.type.lower()
+        er_rolig_okt = any(x in okt_type_lower for x in ['rolig', 'restitusjon', 'lang tur', 'hvile'])
+
+    # Formater gjennomført data
+    pace_str = format_pace(faktisk.snitt_pace_s)
+    if er_rolig_okt and faktisk.snitt_hr > 0:
+        hr_str = f"snitt HR {faktisk.snitt_hr}"
+    elif faktisk.maks_hr > 0:
+        hr_str = f"maks HR {faktisk.maks_hr}"
+    else:
+        hr_str = ""
+
+    gjennomfort = f"**{faktisk.distanse_km:.1f}**"
+    beskrivelse = f"**{pace_str}"
+    if hr_str:
+        beskrivelse += f", {hr_str}"
+    beskrivelse += "**"
+
+    # Bygg ny rad med ✅ og gjennomført data
+    prefix = match.group(1)
+    dag_okt = match.group(2)
+
+    # Fjern eksisterende ✅ hvis den finnes, legg til ny
+    dag_okt_clean = re.sub(r'✅\s*', '', dag_okt)
+
+    # Finn resten av raden
+    rest_start = match.end()
+    rest_end = content.find('\n', rest_start)
+    rest_of_row = content[rest_start:rest_end] if rest_end > 0 else content[rest_start:]
+
+    # Ny rad: | ✅ Dag | Økt | **km** | **beskrivelse** | resten...
+    new_row = f"{prefix}✅ {dag_okt_clean} {gjennomfort} | {beskrivelse} |{rest_of_row}"
+
+    # Erstatt i content
+    full_match_end = rest_end if rest_end > 0 else len(content)
+    new_content = content[:match.start()] + new_row + content[full_match_end:]
+
+    with open(PLAN_PATH, 'w') as f:
+        f.write(new_content)
+
+    console.print(f"[green]✓ Plan oppdatert: {ukedag_kort} {dag_maned} → {faktisk.distanse_km:.1f} km @ {pace_str}[/green]")
+
+    # Oppdater uketotal
+    oppdater_uketotal(faktisk.dato)
+
+    return True
+
+
+def oppdater_uketotal(dato: str):
+    """Oppdaterer total km for uken basert på gjennomførte økter."""
+    if not PLAN_PATH.exists():
+        return False
+
+    with open(PLAN_PATH, 'r') as f:
+        content = f.read()
+
+    # Finn uke-seksjonen for denne datoen
+    try:
+        dt = datetime.strptime(dato, '%Y-%m-%d')
+        # Finn mandagen i denne uka
+        mandag = dt - timedelta(days=dt.weekday())
+        mandag_str = mandag.strftime('%d.%m')
+    except:
+        return False
+
+    # Finn UKE-header etterfulgt av dato-linje med mandagen
+    # Format: # UKE 1\n\n**11.05 – 17.05.2026 | ...
+    uke_pattern = rf'(# UKE \d+)\n+\*\*{mandag_str}'
+    uke_match = re.search(uke_pattern, content)
+
+    if not uke_match:
+        return False
+
+    uke_header = uke_match.group(1)  # "# UKE X"
+    uke_start = uke_match.start()
+
+    # Finn slutten av denne uka (neste # UKE eller # BLOKK eller slutten)
+    neste_seksjon = re.search(r'\n# (?:UKE|BLOKK)', content[uke_start + 1:])
+    if neste_seksjon:
+        uke_end = uke_start + 1 + neste_seksjon.start()
+    else:
+        uke_end = len(content)
+
+    uke_content = content[uke_start:uke_end]
+
+    # Finn alle gjennomførte km (tall i **X.X** format i Km-kolonnen)
+    # Tabellformat: | ✅ Dag | Økt | **km** | beskrivelse | ...
+    km_pattern = r'\|\s*✅[^|]+\|[^|]+\|\s*\*\*(\d+\.?\d*)\*\*'
+    km_matches = re.findall(km_pattern, uke_content)
+
+    total_km = sum(float(km) for km in km_matches if km)
+
+    # Finn og oppdater Total-raden
+    # Format: | **Total** | | **XX.X** | | *planlagt* | ...
+    total_pattern = r'(\|\s*\*\*Total\*\*\s*\|[^|]*\|)\s*\*\*[\d.]*\*\*'
+    total_match = re.search(total_pattern, uke_content)
+
+    if total_match:
+        new_total_row = f"{total_match.group(1)} **{total_km:.1f}**"
+        new_uke_content = uke_content[:total_match.start()] + new_total_row + uke_content[total_match.end():]
+        new_content = content[:uke_start] + new_uke_content + content[uke_end:]
+
+        with open(PLAN_PATH, 'w') as f:
+            f.write(new_content)
+
+        console.print(f"[green]✓ Uketotal oppdatert: {total_km:.1f} km[/green]")
+        return True
+
+    return False
+
+
 def lagre_evaluering(evaluering: Evaluering):
     """Lagrer evalueringen til databasen."""
     init_eval_db()
@@ -586,6 +733,9 @@ def vis_evaluering(dato: str = None, skip_sync: bool = False):
 
     lagre_evaluering(evaluering)
     console.print(f"\n[dim]Evaluering lagret til {EVAL_DB_PATH.name}[/dim]")
+
+    # Oppdater planen med gjennomført økt
+    oppdater_plan_med_faktisk(faktisk)
 
     # Generer treningsbrief for neste dag
     try:
