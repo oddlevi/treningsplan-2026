@@ -140,16 +140,22 @@ def main():
         num_comments = sum(1 for v in st.session_state.comments.values() if v)
         st.caption(f"💬 {num_comments} kommentarer")
 
-    # Hovedinnhold
-    if selected == "Full plan":
-        display_sections = sections
-    else:
-        st.caption(f"Viser: {selected}")
-        # Vis kun valgt seksjon (uten intro)
-        display_sections = [s for s in sections if s["title"] == selected]
+    # Hovedinnhold - vis alltid hele planen
+    display_sections = sections
+
+    # Finn section_id for valgt seksjon (for scrolling)
+    scroll_to = None
+    if selected != "Full plan":
+        for s in sections:
+            if s["title"] == selected:
+                scroll_to = s["id"]
+                break
 
     for section in display_sections:
         st.divider()
+
+        # Legg til anchor for navigasjon
+        st.markdown(f'<div id="{section["id"]}"></div>', unsafe_allow_html=True)
 
         # Vis seksjonens innhold
         st.markdown(section["content"])
@@ -178,6 +184,17 @@ def main():
                     st.rerun()
 
     st.divider()
+
+    # Scroll til valgt seksjon
+    if scroll_to:
+        st.markdown(f"""
+        <script>
+            var element = document.getElementById("{scroll_to}");
+            if (element) {{
+                element.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+            }}
+        </script>
+        """, unsafe_allow_html=True)
 
     # Eksporter kommentarer
     if st.session_state.comments:
