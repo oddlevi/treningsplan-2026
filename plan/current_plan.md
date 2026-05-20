@@ -86,10 +86,10 @@
 | Uke | Volum | Terskelarbeid | Langtur | Fokus |
 |-----|-------|---------------|---------|-------|
 | 1 (11.05) | 52 km | 48 min | 14 km | Etabler rytme |
-| 2 (18.05) | 64 km | 65 min | 17 km | Bygg volum |
+| 2 (18.05) | 53 km | 30 min | 18 km | Justert: én terskel + rolig volum |
 | 3 (25.05) | 66 km | 68 min | 18 km | Peak-uke |
 | 4 (01.06) | 42 km | 16 min | 21 km | Nedtrapping → Halvmaraton 06.06 |
-| **Total** | **224 km** | **197 min** | - | - |
+| **Total** | **213 km** | **162 min** | - | - |
 
 ---
 ---
@@ -115,20 +115,20 @@
 
 # UKE 2
 
-**18.05 – 24.05.2026 | Volum: 64 km | Terskel: 65 min**
+**18.05 – 24.05.2026 | Volum: 53 km | Terskel: 30 min** *(justert)*
 
-**Fokus:** Øk terskelarbeid (+11 min). Bygg volum gradvis.
+**Fokus:** Én terskeløkt + bygge rolig volum. Fjelltur onsdag.
 
 | Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 18.05 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 19.05 | Terskel 1 🔴 | | | *13* | *5×7 min @ 3:55-4:10/km (35 min) · HR <170, Pause 90s* | Hvile |
-| Ons 20.05 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR 125-135* | 8.8 km · 9×860m @ 3:59 HR 175 |
+| ✅ Man 18.05 | Hvile ⚪ | **-** | **-** | *-* | *-* | Hvile |
+| ⏭️ Tir 19.05 | ~~Terskel 1~~ | **-** | **Droppet** | *-* | *-* | Hvile |
+| ✅ Ons 20.05 | Fjelltur 🏔️ | **-** | **Fjelltur (ikke løping)** | *-* | *-* | 8.8 km · 9×860m @ 3:59 HR 175 |
 | Tor 21.05 | Terskel 2 🔴 | | | *13* | *10×3 min @ 3:45-4:00/km (30 min) · HR 168-174, Pause 60s* | 10 km · 10×1000m @ 4:14 HR 170 |
-| Fre 22.05 | Hvile ⚪ | | | *-* | *-* | 4 km @ 5:17 HR 137 |
-| Lør 23.05 | Lang tur 🟢 | | | *17* | *5:10-5:25/km, HR 125-135* | 11.5 km ⚽ 116 min |
-| Søn 24.05 | Restitusjon 🟢 | | | *9* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *64* | *65 min terskel* | 34 km |
+| Fre 22.05 | Rolig 🟢 | | | *10* | *5:15-5:30/km, HR 125-140* | 4 km @ 5:17 HR 137 |
+| Lør 23.05 | Lang tur 🟢 | | | *18* | *5:10-5:25/km, HR 125-135* | 11.5 km ⚽ 116 min |
+| Søn 24.05 | Rolig 🟢 | | | *12* | *5:20-5:40/km, HR <130* | Hvile |
+| **Total** | | **0** | | *53* | *30 min terskel* | 34 km |
 
 ---
 
