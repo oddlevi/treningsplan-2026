@@ -124,11 +124,11 @@
 | ✅ Man 18.05 | Hvile ⚪ | **-** | **-** | *-* | *-* | Hvile |
 | ⏭️ Tir 19.05 | ~~Terskel 1~~ | **-** | **Droppet** | *-* | *-* | Hvile |
 | ✅ Ons 20.05 | Fjelltur 🏔️ | **-** | **Fjelltur (ikke løping)** | *-* | *-* | 8.8 km · 9×860m @ 3:59 HR 175 |
-| Tor 21.05 | Terskel 2 🔴 | | | *13* | *10×3 min @ 3:45-4:00/km (30 min) · HR 168-174, Pause 60s* | 10 km · 10×1000m @ 4:14 HR 170 |
+| ✅ Tor 21.05 | Terskel 2 🔴 | **13.5** | **5:00/km, maks HR 182** | *13* | *10×3 min @ 3:45-4:00/km (30 min) · HR 168-174, Pause 60s* | 10 km · 10×1000m @ 4:14 HR 170 |
 | Fre 22.05 | Rolig 🟢 | | | *10* | *5:15-5:30/km, HR 125-140* | 4 km @ 5:17 HR 137 |
 | Lør 23.05 | Lang tur 🟢 | | | *18* | *5:10-5:25/km, HR 125-135* | 11.5 km ⚽ 116 min |
 | Søn 24.05 | Rolig 🟢 | | | *12* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *53* | *30 min terskel* | 34 km |
+| **Total** | | **13.5** | | *53* | *30 min terskel* | 34 km |
 
 ---
 

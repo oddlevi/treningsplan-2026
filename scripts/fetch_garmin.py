@@ -384,7 +384,82 @@ def merge_activity_fields(cursor, existing_id: int, new_data: dict):
         cursor.execute(f"UPDATE activities SET {', '.join(updates)} WHERE id = ?", values)
 
 
-def save_activity_to_db(activity: dict):
+def fetch_activity_laps(garmin, activity_id: int) -> list:
+    """Henter intervall/lap-data for en aktivitet."""
+    try:
+        # Bruk get_activity_splits som returnerer lapDTOs
+        splits = api_call_with_backoff(garmin.get_activity_splits, activity_id)
+        if splits and "lapDTOs" in splits:
+            laps = splits.get("lapDTOs", [])
+            if laps:
+                console.print(f"[dim]  Hentet {len(laps)} laps for aktivitet {activity_id}[/dim]")
+                return laps
+    except Exception as e:
+        log_error(f"Kunne ikke hente laps for {activity_id}: {e}")
+    return []
+
+
+def save_activity_laps_to_db(garmin_id: int, activity_date: str, activity_name: str, laps: list):
+    """Lagrer lap-data til interval_laps tabellen."""
+    if not laps:
+        return
+
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+
+    # Slett eksisterende laps for denne aktiviteten
+    cursor.execute("DELETE FROM interval_laps WHERE garmin_id = ?", (garmin_id,))
+
+    for i, lap in enumerate(laps):
+        # Garmin API feltnavn (fra lapDTOs)
+        distance_m = lap.get("distance", 0)
+        duration_s = lap.get("duration") or lap.get("movingDuration") or 0
+
+        avg_hr = lap.get("averageHR")
+        max_hr = lap.get("maxHR")
+        avg_cadence = lap.get("averageRunCadence")
+
+        # Beregn pace
+        pace_s_per_km = (duration_s / distance_m * 1000) if distance_m > 0 else None
+
+        # Bestem lap_type basert på intensityType eller pace
+        intensity_type = lap.get("intensityType", "")
+        if intensity_type == "REST" or intensity_type == "RECOVERY":
+            lap_type = "rest"
+        elif intensity_type == "WARMUP":
+            lap_type = "warmup"
+        elif intensity_type == "COOLDOWN":
+            lap_type = "cooldown"
+        elif pace_s_per_km:
+            if pace_s_per_km > 360:  # Saktere enn 6:00/km
+                lap_type = "rest"
+            elif pace_s_per_km > 300:  # 5:00-6:00/km
+                lap_type = "pause"
+            else:
+                lap_type = "work"
+        else:
+            lap_type = "work"
+
+        lap_index = lap.get("lapIndex", i + 1)
+
+        try:
+            cursor.execute("""
+                INSERT OR REPLACE INTO interval_laps (
+                    garmin_id, activity_date, activity_name, lap_index, lap_type,
+                    distance_m, duration_s, pace_s_per_km, avg_hr, max_hr, avg_cadence
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (
+                garmin_id, activity_date, activity_name, lap_index, lap_type,
+                distance_m, duration_s, pace_s_per_km, avg_hr, max_hr, avg_cadence
+            ))
+        except Exception as e:
+            log_error(f"Feil ved lagring av lap {i} for {garmin_id}: {e}")
+
+    conn.commit()
+    conn.close()
+
+
+def save_activity_to_db(activity: dict, garmin=None):
     """Lagrer aktivitet til database med upsert-logikk."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
@@ -450,6 +525,12 @@ def save_activity_to_db(activity: dict):
 
     conn.commit()
     conn.close()
+
+    # Hent og lagre laps for løpeaktiviteter
+    if garmin and sport in ('running', 'trail_running') and distance_km >= 3:
+        laps = fetch_activity_laps(garmin, garmin_id)
+        if laps:
+            save_activity_laps_to_db(garmin_id, start_date[:10], name, laps)
 
 
 def fetch_daily_metrics_batch(garmin, start_date: datetime, end_date: datetime, progress_data: dict):
@@ -712,7 +793,7 @@ def main(days: int, resume: bool, activities_only: bool, metrics_only: bool):
     if not metrics_only:
         activities = fetch_and_save_activities(garmin, start_date, end_date, progress_data)
         for activity in activities:
-            save_activity_to_db(activity)
+            save_activity_to_db(activity, garmin)
         progress_data["activities_done"] = True
         save_progress(progress_data)
 
