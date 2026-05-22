@@ -650,8 +650,16 @@ def vis_evaluering(dato: str = None, skip_sync: bool = False):
     console.print(f"[bold]Distanse:[/bold] {faktisk.distanse_km:.1f} km")
     console.print(f"[bold]Tid:[/bold] {faktisk.tid_s // 60}:{faktisk.tid_s % 60:02d}")
     console.print(f"[bold]Snitt-pace:[/bold] {format_pace(faktisk.snitt_pace_s)}")
-    if faktisk.maks_hr > 0:
-        console.print(f"[bold]HR:[/bold] {faktisk.maks_hr} bpm")
+    # Vis snitt HR for rolige økter, maks HR for harde økter
+    er_rolig = False
+    if planlagt:
+        okt_type = planlagt.type.lower()
+        er_rolig = any(x in okt_type for x in ['rolig', 'restitusjon', 'lang tur', 'hvile'])
+
+    if er_rolig and faktisk.snitt_hr > 0:
+        console.print(f"[bold]HR:[/bold] {faktisk.snitt_hr} bpm (snitt)")
+    elif faktisk.maks_hr > 0:
+        console.print(f"[bold]HR:[/bold] {faktisk.maks_hr} bpm (maks)")
 
     # Vis planlagt vs faktisk
     console.print()
