@@ -57,7 +57,10 @@ class VolumeStats:
     """Volumstatistikk."""
     km_7d: float
     km_28d: float
-    acwr: float
+    acwr: float  # Volum-basert (legacy)
+    acute_load: float  # Garmin acute load (7d vektet)
+    chronic_load: float  # Garmin chronic load (28d vektet)
+    load_acwr: float  # Load-basert ACWR (mer presis)
 
 
 @dataclass
@@ -162,11 +165,11 @@ def hent_hrv_historie(dato: str, dager: int = 3) -> List[Tuple[str, str]]:
 
 
 def hent_volume_stats(dato: str) -> VolumeStats:
-    """Beregner volumstatistikk og ACWR."""
+    """Beregner volumstatistikk og ACWR (både volum- og load-basert)."""
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    # Siste 7 dager
+    # Siste 7 dager - km
     cursor.execute("""
         SELECT COALESCE(SUM(distance_km), 0)
         FROM activities
@@ -182,7 +185,7 @@ def hent_volume_stats(dato: str) -> VolumeStats:
     """, (dato, dato))
     km_7d = cursor.fetchone()[0] or 0
 
-    # Siste 28 dager
+    # Siste 28 dager - km
     cursor.execute("""
         SELECT COALESCE(SUM(distance_km), 0)
         FROM activities
@@ -198,16 +201,55 @@ def hent_volume_stats(dato: str) -> VolumeStats:
     """, (dato, dato))
     km_28d = cursor.fetchone()[0] or 0
 
+    # Garmin Training Load - siste 7 dager (akutt)
+    cursor.execute("""
+        SELECT COALESCE(SUM(training_load), 0)
+        FROM activities
+        WHERE date(CASE
+            WHEN start_date LIKE '%T%' THEN replace(replace(start_date, 'T', ' '), 'Z', '')
+            ELSE start_date
+        END) >= date(?, '-7 days')
+        AND date(CASE
+            WHEN start_date LIKE '%T%' THEN replace(replace(start_date, 'T', ' '), 'Z', '')
+            ELSE start_date
+        END) <= ?
+        AND sport IN ('running', 'Run', 'trail_running')
+    """, (dato, dato))
+    acute_load = cursor.fetchone()[0] or 0
+
+    # Garmin Training Load - siste 28 dager (kronisk)
+    cursor.execute("""
+        SELECT COALESCE(SUM(training_load), 0)
+        FROM activities
+        WHERE date(CASE
+            WHEN start_date LIKE '%T%' THEN replace(replace(start_date, 'T', ' '), 'Z', '')
+            ELSE start_date
+        END) >= date(?, '-28 days')
+        AND date(CASE
+            WHEN start_date LIKE '%T%' THEN replace(replace(start_date, 'T', ' '), 'Z', '')
+            ELSE start_date
+        END) <= ?
+        AND sport IN ('running', 'Run', 'trail_running')
+    """, (dato, dato))
+    chronic_load_total = cursor.fetchone()[0] or 0
+
     conn.close()
 
-    # ACWR = akutt (7d) / kronisk (28d snitt per uke)
+    # Volum-ACWR (legacy)
     kronisk_per_uke = km_28d / 4 if km_28d > 0 else 1
     acwr = km_7d / kronisk_per_uke if kronisk_per_uke > 0 else 0
+
+    # Load-ACWR (Garmin-basert)
+    chronic_load_per_week = chronic_load_total / 4 if chronic_load_total > 0 else 1
+    load_acwr = acute_load / chronic_load_per_week if chronic_load_per_week > 0 else 0
 
     return VolumeStats(
         km_7d=km_7d,
         km_28d=km_28d,
-        acwr=round(acwr, 2)
+        acwr=round(acwr, 2),
+        acute_load=round(acute_load, 0),
+        chronic_load=round(chronic_load_total, 0),
+        load_acwr=round(load_acwr, 2)
     )
 
 
@@ -311,7 +353,7 @@ def generer_anbefaling(
     readiness = metrikker.training_readiness
     sleep_hours = metrikker.sleep_hours
     hrv_status = metrikker.hrv_status.upper()
-    acwr = volume.acwr
+    acwr = volume.load_acwr  # Bruker load-basert ACWR (Garmin)
     hard_okt = er_hard_okt(okt)
 
     # Tell HRV unbalanced/low de siste 3 dagene
@@ -490,18 +532,22 @@ def vis_morgen_status(dato: str):
     # Vis volumstatistikk
     console.print(f"\n[bold]📊 Volum:[/bold] {volume.km_7d:.1f} km siste 7 dager / {volume.km_28d:.1f} km siste 28 dager")
 
-    acwr_color = "green" if volume.acwr < 1.0 else ("yellow" if volume.acwr < 1.3 else "red")
-    console.print(f"[bold]⚖️  ACWR:[/bold] [{acwr_color}]{volume.acwr}[/{acwr_color}]", end="")
-    if volume.acwr < 0.8:
-        console.print(" (lav belastning)")
-    elif volume.acwr < 1.0:
-        console.print(" (vedlikehold)")
-    elif volume.acwr < 1.3:
-        console.print(" (god progresjon)")
-    elif volume.acwr < 1.5:
-        console.print(" (høy progresjon – vær forsiktig)")
+    # Vis Load-basert ACWR (Garmin)
+    load_acwr = volume.load_acwr
+    acwr_color = "green" if load_acwr < 1.0 else ("yellow" if load_acwr < 1.3 else "red")
+    console.print(f"[bold]⚖️  ACWR:[/bold] [{acwr_color}]{load_acwr}[/{acwr_color}] (load-basert)", end="")
+    console.print(f"  [dim]Akutt: {volume.acute_load:.0f} / Kronisk: {volume.chronic_load/4:.0f} per uke[/dim]")
+
+    if load_acwr < 0.8:
+        console.print("   → Lav belastning (risiko for detrain)")
+    elif load_acwr < 1.0:
+        console.print("   → Vedlikehold")
+    elif load_acwr < 1.3:
+        console.print("   → God progresjon ✓")
+    elif load_acwr < 1.5:
+        console.print("   → Høy progresjon ⚠️")
     else:
-        console.print(" (skaderisiko!)")
+        console.print("   → Skaderisiko! 🔴")
 
     # Vis planlagt økt
     console.print()
@@ -629,7 +675,7 @@ def vis_telegram_status(dato: str):
         lines.append(" | ".join(metrics))
 
         # ACWR alltid
-        lines.append(f"ACWR {volume.acwr}")
+        lines.append(f"ACWR {volume.load_acwr} (load)")
 
     print("\n".join(lines))
 

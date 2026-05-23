@@ -32,6 +32,28 @@
 
 ---
 
+## Volumoversikt per blokk
+
+*4-ukers periodisering: Start → Bygg → Peak → Nedtrapping*
+
+| Blokk | Start | Bygg | Peak | Nedtrapp | **SUM** | Status |
+|------:|------:|-----:|-----:|---------:|--------:|--------|
+| 1 | U1: 52 | U2: 53 | U3: 66 | U4: 42 | **213 km** | ✓ OK |
+| 2 | U5: 55 | U6: 70 | U7: 75 | U8: 50 | **250 km** | ✓ OK |
+| 3 | U9: 70 | U10: 70 | U11: 75 | U12: 50 | **265 km** | ⚠️ Flat start |
+| 4 | U13: 70 | U14: 72 | U15: 68 | U16: 45 | **255 km** | 10K taper |
+| 5 | U17: 55 | U18: 65 | U19: 40 | RACE | **160 km** | Halv taper |
+
+**TOTAL: 1143 km**
+
+**Progresjon mellom blokker:**
+- Blokk 1→2: +37 km (+17%)
+- Blokk 2→3: +15 km (+6%)
+- Blokk 3→4: -10 km (taper mot 10K)
+- Blokk 4→5: -95 km (taper mot halv)
+
+---
+
 ## Formprogresjon
 
 *Dagsform ved start → mål*
@@ -143,7 +165,7 @@
 | Man 25.05 | Hvile ⚪ | | | *-* | *-* | 2.2 km ⚽ 58 min |
 | Tir 26.05 | Terskel 1 🔴 | | | *14* | *6×6 min @ 3:50-4:05/km (36 min) · HR <170, Pause 90s* | 14.5 km (flere økter) |
 | Ons 27.05 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR 125-135* | Hvile |
-| Tor 28.05 | Terskel 2 🔴 | | | *14* | *8×4 min @ 3:45-4:00/km (32 min) · HR 168-174, Pause 75s* | 1.9 km ⚽ 80 min |
+| Tor 28.05 | Terskel 2 🔴 | | | *14* | *8×4 min @ 3:45-4:00/km (32 min) · HR <175, Pause 75s — **FORMTEST (ny benchmark)*** | 1.9 km ⚽ 80 min |
 | Fre 29.05 | Hvile ⚪ | | | *-* | *-* | 7 km · 5×1000m @ 3:34 HR 173 |
 | Lør 30.05 | Lang tur 🟢 | | | *18* | *5:10-5:25/km, HR 125-135* | Hvile |
 | Søn 31.05 | Restitusjon 🟢 | | | *8* | *5:25-5:45/km, HR <125* | 16.1 km (flere økter) |
