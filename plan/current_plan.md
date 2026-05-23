@@ -2,7 +2,7 @@
 
 *Marius Bakken / Norsk modell*
 
-**Periode:** 11.05.2026 – 22.09.2026 (19 uker)
+**Periode:** 11.05.2026 – 28.09.2026 (20 uker)
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 19-ukers oversikt
+## 20-ukers oversikt
 
 | Blokk | Uker | Start | Fokus |
 |-------|------|-------|-------|
@@ -28,7 +28,7 @@
 | 2 – Aerob build | 5-8 | 08.06 | Volum, langtur |
 | 3 – Terskel-build | 9-12 | 06.07 | Terskel + VO2 |
 | 4 – 10k-spesifikk | 13-16 | 03.08 | Race-pace → 10K MÅL |
-| 5 – Halv-spesifikk | 17-19 | 08.09 | Terskel → HALV MÅL |
+| 5 – Halv-spesifikk | 17-20 | 08.09 | Taper → HALV MÅL + restitusjon |
 
 ---
 
@@ -583,6 +583,32 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 **Forventet tid:** 1:24:00-1:25:30
 
 ---
+
+## Uke 20 (22.09 – 28.09) – HALVMARATON + Restitusjon
+
+**Volum: 31 km | Terskel: 0 min** *(inkl. 21 km race)*
+
+**Fokus:** All-in halvmaraton mandag. Resten av uka er ren restitusjon.
+
+| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
+|-----|-----|-------:|----------------------|-----:|-----------------|------|
+| **Man 22.09** | **HALVMARATON 🏁** | | | ***21*** | *Mål: Sub 1:25:00 @ 4:01/km, HR 168-182* | — |
+| Tir 23.09 | Hvile ⚪ | | | *-* | *Total hvile* | — |
+| Ons 24.09 | Hvile/gå ⚪ | | | *-* | *Valgfri rolig gåtur 30-45 min* | — |
+| Tor 25.09 | Restitusjon 🟢 | | | *4* | *6:00-6:30/km, HR <120, kun hvis kroppen vil* | — |
+| Fre 26.09 | Hvile ⚪ | | | *-* | *-* | — |
+| Lør 27.09 | Rolig 🟢 | | | *6* | *5:30-5:50/km, HR <130* | — |
+| Søn 28.09 | Hvile ⚪ | | | *-* | *-* | — |
+| **Total** | | **0** | | *31* | *0 min terskel* | — |
+
+> **Restitusjonsstrategi etter all-in halvmaraton:**
+> - Dag 1-2: Total hvile, ingen løping
+> - Dag 3-4: Valgfri lett aktivitet (gå, svømme)
+> - Dag 4-5: Forsiktig jogg kun hvis Readiness > 50
+> - Dag 6-7: Gradvis tilbake til lett løping
+> - Full trening tidligst uke 21
+
+---
 ---
 
 # TOTALOPPSUMMERING
@@ -591,12 +617,12 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 | Blokk | Uker | Volum | Terskel | VO2/Race |
 |-------|------|-------|---------|----------|
-| 1 – Base | 1-4 | 224 km | 197 min | - |
+| 1 – Base | 1-4 | 213 km | 142 min | - |
 | 2 – Aerob | 5-8 | 250 km | 185 min | - |
 | 3 – Terskel | 9-12 | 265 km | 190 min | 33 min |
 | 4 – 10K | 13-16 | 255 km | 120 min | 76 min |
-| 5 – Halv | 17-19 | 160 km | 110 min | - |
-| **Total** | **19 uker** | **1154 km** | **802 min** | **109 min** |
+| 5 – Halv | 17-20 | 191 km | 110 min | - |
+| **Total** | **20 uker** | **1174 km** | **747 min** | **109 min** |
 
 ## Løpskalender
 
