@@ -98,6 +98,11 @@ def init_database():
             has_hrv BOOLEAN DEFAULT 0,
             has_readiness BOOLEAN DEFAULT 0,
             has_training_load BOOLEAN DEFAULT 0,
+            ground_contact_time_ms REAL,
+            vertical_oscillation_cm REAL,
+            stride_length_m REAL,
+            primary_benefit TEXT,
+            secondary_benefit TEXT,
             source TEXT DEFAULT 'garmin',
             raw_json TEXT
         )
@@ -367,11 +372,15 @@ def merge_activity_fields(cursor, existing_id: int, new_data: dict):
     # Bygg UPDATE - Garmin-data overskriver NULL-verdier OG oppdaterer source til garmin
     updates = []
     values = []
+    garmin_specific_fields = (
+        'garmin_id', 'training_load', 'aerobic_te', 'anaerobic_te', 'vo2max_estimate',
+        'has_training_load', 'ground_contact_time_ms', 'vertical_oscillation_cm',
+        'stride_length_m', 'primary_benefit', 'secondary_benefit'
+    )
     for col, new_val in new_data.items():
         if col in existing_dict and new_val is not None:
             # Overskriv hvis eksisterende er NULL, eller for Garmin-spesifikke felt
-            if existing_dict[col] is None or col in ('garmin_id', 'training_load', 'aerobic_te',
-                                                      'anaerobic_te', 'vo2max_estimate', 'has_training_load'):
+            if existing_dict[col] is None or col in garmin_specific_fields:
                 updates.append(f"{col} = ?")
                 values.append(new_val)
 
@@ -486,6 +495,16 @@ def save_activity_to_db(activity: dict, garmin=None):
 
     has_training_load = training_load is not None
 
+    # Running Dynamics og Benefits finnes direkte i aktivitetslisten
+    ground_contact_time_ms = activity.get("avgGroundContactTime")
+    vertical_oscillation_cm = activity.get("avgVerticalOscillation")
+    stride_length_m = activity.get("avgStrideLength")
+    if stride_length_m:
+        stride_length_m = stride_length_m / 100  # Garmin gir cm, vi vil ha meter
+    primary_benefit = activity.get("trainingEffectLabel")
+    # Secondary benefit finnes ikke direkte - sett til None
+    secondary_benefit = None
+
     # UPSERT: Sjekk om aktivitet med samme dato/distanse/tid finnes
     existing_id = find_existing_activity(cursor, start_date, distance_km, moving_time_s)
 
@@ -504,6 +523,11 @@ def save_activity_to_db(activity: dict, garmin=None):
             'anaerobic_te': anaerobic_te,
             'vo2max_estimate': vo2max,
             'has_training_load': has_training_load,
+            'ground_contact_time_ms': ground_contact_time_ms,
+            'vertical_oscillation_cm': vertical_oscillation_cm,
+            'stride_length_m': stride_length_m,
+            'primary_benefit': primary_benefit,
+            'secondary_benefit': secondary_benefit,
             'raw_json': json.dumps(activity, default=str),
         }
         merge_activity_fields(cursor, existing_id, new_data)
@@ -514,13 +538,20 @@ def save_activity_to_db(activity: dict, garmin=None):
                 garmin_id, start_date, sport, name, distance_km, moving_time_s, elapsed_time_s,
                 avg_pace_s_per_km, avg_hr, max_hr, elevation_gain_m, avg_cadence,
                 training_load, aerobic_te, anaerobic_te, vo2max_estimate,
-                has_training_load, source, raw_json
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'garmin', ?)
+                has_training_load, ground_contact_time_ms, vertical_oscillation_cm, stride_length_m,
+                primary_benefit, secondary_benefit, source, raw_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'garmin', ?)
         """, (
             garmin_id, start_date, sport, name, distance_km, moving_time_s, elapsed_time_s,
             avg_pace, avg_hr, max_hr, elevation, cadence,
             training_load, aerobic_te, anaerobic_te, vo2max,
-            has_training_load, json.dumps(activity, default=str)
+            has_training_load,
+            ground_contact_time_ms,
+            vertical_oscillation_cm,
+            stride_length_m,
+            primary_benefit,
+            secondary_benefit,
+            json.dumps(activity, default=str)
         ))
 
     conn.commit()
@@ -656,6 +687,14 @@ def fetch_daily_metrics_batch(garmin, start_date: datetime, end_date: datetime, 
                 except Exception as e:
                     log_error(f"VO2 Max {date_str}: {e}")
 
+                # Stress-nivå
+                try:
+                    stress = api_call_with_backoff(garmin.get_stress_data, date_str)
+                    if stress and isinstance(stress, dict):
+                        metrics["stress_avg"] = stress.get("avgStressLevel")
+                except Exception as e:
+                    log_error(f"Stress {date_str}: {e}")
+
                 # Lagre hvis vi har data
                 if metrics:
                     save_raw_data(metrics, "daily", date_str)
@@ -721,9 +760,9 @@ def save_daily_metrics_to_db(date: datetime, metrics: dict):
         INSERT OR REPLACE INTO daily_metrics (
             date, hrv_status, hrv_weekly_avg, hrv_value, training_readiness,
             body_battery_max, body_battery_min, sleep_score, sleep_hours,
-            resting_hr, acute_load, chronic_load, load_ratio, training_status,
+            resting_hr, stress_avg, acute_load, chronic_load, load_ratio, training_status,
             vo2max_running, raw_json
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         date_str,
         metrics.get("hrv_status"),
@@ -735,6 +774,7 @@ def save_daily_metrics_to_db(date: datetime, metrics: dict):
         metrics.get("sleep_score"),
         metrics.get("sleep_hours"),
         metrics.get("resting_hr"),
+        metrics.get("stress_avg"),
         metrics.get("acute_load"),
         metrics.get("chronic_load"),
         metrics.get("load_ratio"),
