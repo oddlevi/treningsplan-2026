@@ -32,6 +32,39 @@
 
 ---
 
+## Forarbeid (01.01 – 10.05)
+
+*Belastning før treningsplanen startet*
+
+**Månedlig:**
+
+| Måned | 2026 | 2024 | Diff |
+|-------|-----:|-----:|-----:|
+| Januar | 96 km | 109 km | -13 |
+| Februar | 0 km | 67 km | -67 |
+| Mars | 13 km | 81 km | -68 |
+| April | 167 km | 124 km | +43 |
+| Mai 1-10 | 60 km | 37 km | +23 |
+| **Total** | **336 km** | **418 km** | **-82** |
+
+**Siste 8 uker før plan:**
+
+| Uke | 2026 | 2024 | Diff |
+|-----|-----:|-----:|-----:|
+| 16-22.03 | 13 km | 15 km | -2 |
+| 23-29.03 | 0 km | 0 km | 0 |
+| 30.03-05.04 | 45 km | 47 km | -2 |
+| 06-12.04 | 0 km | 24 km | -24 |
+| 13-19.04 | 22 km | 28 km | -6 |
+| 20-26.04 | 60 km | 30 km | +30 |
+| 27.04-03.05 | 40 km | 22 km | +18 |
+| 04-10.05 | 60 km | 26 km | +34 |
+
+> **Analyse:** Feb-mars 2026 var svak (opphold). Kom sterkt tilbake i april-mai.
+> Siste 4 uker før plan: **183 km (2026)** vs 106 km (2024) = +73% bedre utgangspunkt.
+
+---
+
 ## Volumoversikt per blokk
 
 *4-ukers periodisering: Start → Bygg → Peak → Nedtrapping*
