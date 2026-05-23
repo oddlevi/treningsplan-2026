@@ -160,7 +160,7 @@
 | Dag | Hvile | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|:-----:|-----|-------:|----------------------|-----:|-----------------|------|
 | ✅ Man 11.05 | 🟡 | Rolig | **5.7** | **6:30/km, snitt HR 123** | *-* | *Hvile* | 1.8 km ⚽ 56 min |
-| ✅ Tir 12.05 | 🔴 | Terskel 1 | **13.8** | **8 × 1000m @ 3:47-4:08/km, maks HR 165→177, pause ~45s** | *12* | *4×6 min @ 3:55-4:05 · HR <170* | 9.2 km (flere økter) |
+| ✅ Tir 12.05 | 🟡 | Terskel 1 | **13.8** | **8 × 1000m @ 3:47-4:08/km, maks HR 165→177, pause ~45s** | *12* | *4×6 min @ 3:55-4:05 · HR <170* | 9.2 km (flere økter) |
 | ✅ Ons 13.05 | | Hvile | **-** | **-** | *-* | *Hvile* | 7.5 km · 8×940m @ 4:58 HR 160 |
 | ✅ Tor 14.05 | 🟡 | Terskel 2 | **12.2** | **6 × 3 min @ 3:40-3:55/km, maks HR 170→172, pause ~60s** | *12* | *8×3 min @ 3:45-4:00 · HR 168-174* | 8.2 km · 9×910m @ 4:32 HR 155 |
 | ✅ Fre 15.05 | 🟡 | Lang tur 🟢 | **10.0** | **6:29/km, snitt HR 121** | *14* | *5:10-5:25/km, HR 125-135* | Hvile |
@@ -168,7 +168,7 @@
 | Søn 17.05 🇳🇴 | | Rolig 🟢 | | | *14* | *5:20-5:40/km, HR <130 · 17. mai-tur!* | Hvile |
 | **Total** | | | **41.7** | | *52* | *48 min terskel* | 27 km |
 
-**Hvile:** 🟢 god · 🟡 ok · 🔴 utilstrekkelig
+**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<40, stress>50, eller søvn<4t)
 
 ---
 
@@ -189,7 +189,7 @@
 | Søn 24.05 | | Rolig 🟢 | | | *12* | *5:20-5:40/km, HR <130* | Hvile |
 | **Total** | | | **45.9** | | *53* | *30 min terskel* | 34 km |
 
-**Hvile:** 🟢 god · 🟡 ok · 🔴 utilstrekkelig
+**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<40, stress>50, eller søvn<4t)
 
 ---
 
