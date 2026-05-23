@@ -42,15 +42,15 @@
 | 2 | 5-8 | 55 | 70 | 75 | 50 | **250 km** | ✓ OK |
 | 3 | 9-12 | 70 | 70 | 75 | 50 | **265 km** | ⚠️ Flat start |
 | 4 | 13-16 | 70 | 72 | 68 | 45 | **255 km** | 10K taper |
-| 5 | 17-19 | 55 | 65 | 40 | — | **160 km** | Halv taper |
+| 5 | 17-20 | 55 | 65 | 40 | 21 | **181 km** | Halv RACE U20 |
 
-**TOTAL: 1143 km**
+**TOTAL: 1164 km**
 
 **Progresjon mellom blokker:**
 - Blokk 1→2: +37 km (+17%)
 - Blokk 2→3: +15 km (+6%)
 - Blokk 3→4: -10 km (taper mot 10K)
-- Blokk 4→5: -95 km (taper mot halv)
+- Blokk 4→5: -74 km (taper mot halv)
 
 ---
 
