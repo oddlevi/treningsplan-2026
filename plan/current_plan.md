@@ -36,21 +36,21 @@
 
 *4-ukers periodisering: Start → Bygg → Peak → Nedtrapping*
 
-| Blokk | Uker | Start | Bygg | Peak | Nedtrapp | **SUM** | Status |
-|------:|------|------:|-----:|-----:|---------:|--------:|--------|
+| Blokk | Uker | U1 | U2 | U3 | U4 | **SUM** | Status |
+|------:|------|---:|---:|---:|---:|--------:|--------|
 | 1 | 1-4 | 52 | 53 | 66 | 42 | **213 km** | ✓ OK |
 | 2 | 5-8 | 55 | 70 | 75 | 50 | **250 km** | ✓ OK |
 | 3 | 9-12 | 70 | 70 | 75 | 50 | **265 km** | ⚠️ Flat start |
 | 4 | 13-16 | 70 | 72 | 68 | 45 | **255 km** | 10K taper |
-| 5 | 17-20 | 55 | 65 | 40 | 21 | **181 km** | Halv RACE U20 |
+| 5 | 17-20 | 55 | 65 | 40 | 31 | **191 km** | Halv RACE U20 |
 
-**TOTAL: 1164 km**
+**TOTAL: 1174 km**
 
 **Progresjon mellom blokker:**
 - Blokk 1→2: +37 km (+17%)
 - Blokk 2→3: +15 km (+6%)
 - Blokk 3→4: -10 km (taper mot 10K)
-- Blokk 4→5: -74 km (taper mot halv)
+- Blokk 4→5: -64 km (taper mot halv)
 
 ---
 
@@ -65,7 +65,7 @@
 | Uke 8 | ~38:00 | ~1:26 | Aerob kapasitet opp |
 | Uke 12 | ~37:30 | ~1:25:30 | Terskel skjerpet |
 | **Uke 16 (10K)** | **sub 37:00** | — | MÅL-LØP |
-| **Uke 19 (Halv)** | — | **sub 1:25** | MÅL-LØP |
+| **Uke 20 (Halv)** | — | **sub 1:25** | MÅL-LØP |
 
 ---
 ---
@@ -490,9 +490,9 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 ---
 ---
 
-# BLOKK 5: HALV-SPESIFIKK (Uke 17-19)
+# BLOKK 5: HALV-SPESIFIKK (Uke 17-20)
 
-**Periode:** 01.09 – 21.09.2026
+**Periode:** 01.09 – 28.09.2026
 
 **Mål-løp:**
 - 22.09: Halvmaraton – **SUB 1:25:00** (4:01/km)
@@ -507,13 +507,13 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 - Mål-pace: 4:01/km
 - Trening: 3:58-4:05/km
 
-| Parameter | Uke 17 | Uke 18 | Uke 19 |
-|-----------|--------|--------|--------|
-| Volum | 55 km | 65 km | 40 km |
-| Terskel/tempo | 40 min | 50 min | 20 min |
-| Langtur | 16 km | 18 km | 10 km |
+| Parameter | Uke 17 | Uke 18 | Uke 19 | Uke 20 |
+|-----------|--------|--------|--------|--------|
+| Volum | 55 km | 65 km | 40 km | 31 km |
+| Terskel/tempo | 40 min | 50 min | 20 min | 0 min |
+| Langtur | 16 km | 18 km | - | RACE 21 km |
 
-**Total blokk 5:** 160 km, 110 min terskel/tempo
+**Total blokk 5:** 191 km, 110 min terskel/tempo
 
 ---
 
