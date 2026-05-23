@@ -34,34 +34,34 @@
 
 ## Forarbeid (01.01 – 10.05)
 
-*Belastning før treningsplanen startet (inkl. tredemølle)*
+*Belastning før treningsplanen startet (all aktivitet: løping + fotball)*
 
 **Månedlig:**
 
 | Måned | 2026 | 2024 | Diff |
 |-------|-----:|-----:|-----:|
-| Januar | 96 km | 148 km | -52 |
-| Februar | 63 km | 164 km | -101 |
-| Mars | 112 km | 130 km | -18 |
-| April | 167 km | 136 km | +31 |
-| Mai 1-10 | 60 km | 37 km | +23 |
-| **Total** | **498 km** | **613 km** | **-115** |
+| Januar | 99 km | 158 km | -59 |
+| Februar | 66 km | 174 km | -108 |
+| Mars | 116 km | 134 km | -18 |
+| April | 185 km | 144 km | +41 |
+| Mai 1-10 | 60 km | 38 km | +22 |
+| **Total** | **526 km** | **648 km** | **-122** |
 
 **Siste 8 uker før plan:**
 
 | Uke | 2026 | 2024 | Diff |
 |-----|-----:|-----:|-----:|
-| 16-22.03 | 13 km | 27 km | -14 |
-| 23-29.03 | 41 km | 0 km | +41 |
-| 30.03-05.04 | 45 km | 47 km | -2 |
-| 06-12.04 | 0 km | 36 km | -36 |
+| 16-22.03 | 15 km | 12 km | +3 |
+| 23-29.03 | 41 km | 17 km | +24 |
+| 30.03-05.04 | 45 km | 32 km | +13 |
+| 06-12.04 | 18 km | 38 km | -20 |
 | 13-19.04 | 22 km | 28 km | -6 |
-| 20-26.04 | 60 km | 30 km | +30 |
-| 27.04-03.05 | 40 km | 22 km | +18 |
-| 04-10.05 | 60 km | 26 km | +34 |
+| 20-26.04 | 60 km | 44 km | +16 |
+| 27.04-03.05 | 40 km | 13 km | +27 |
+| 04-10.05 | 60 km | 43 km | +17 |
 
-> **Analyse:** Feb 2026 var svakere (-101 km vs 2024), men kom tilbake i mars-april.
-> Siste 4 uker før plan: **182 km (2026)** vs 106 km (2024) = +72% bedre utgangspunkt.
+> **Analyse:** Jan-feb 2026 var svakere (-167 km vs 2024), men kom sterkt tilbake i april.
+> Siste 4 uker før plan: **182 km (2026)** vs 128 km (2024) = +42% bedre utgangspunkt.
 
 ---
 
@@ -69,7 +69,7 @@
 
 *4-ukers periodisering: Start → Bygg → Peak → Nedtrapping*
 
-*2024-tall inkluderer all aktivitet (løping + fotball) for sammenlignbarhet med uketabellene*
+*2024-tall inkluderer all aktivitet (løping + fotball)*
 
 | Blokk | Uker | U1 | U2 | U3 | U4 | **2026** | *2024* | Diff |
 |------:|------|---:|---:|---:|---:|--------:|-------:|-----:|
