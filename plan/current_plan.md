@@ -229,6 +229,30 @@
 | Søn 07.06 | Restitusjon 🟢 | | | *5* | *5:30-5:50/km, HR <120 (valgfri)* | 10.5 km (flere økter) |
 | **Total** | | **0** | | *42* | *16 min terskel* | 49 km |
 
+### Løpsplan: Halvmaraton 6. juni
+
+**Strategi:** Progressivt løp med HR-kontroll. Start kontrollert, øk basert på HR.
+
+**Pace-plan:**
+
+| Segment | Pace | Tid | Akkumulert |
+|---------|-----:|----:|-----------:|
+| 0-5 km | 4:25 | 22:05 | 22:05 |
+| 5-10 km | 4:18-4:20 | ~21:35 | ~43:40 |
+| 10-15 km | 4:10-4:15 | ~21:00 | ~1:04:40 |
+| 15-21.1 km | 4:05-4:10 | ~25:00 | **~1:29-1:30** |
+
+**HR-tak (holde igjen):**
+
+| Punkt | Maks HR | Hvis over → |
+|------:|--------:|-------------|
+| 5 km | 162 | Hold 4:25 |
+| 10 km | 165 | Hold pace |
+| 15 km | 168 | Ikke øk |
+| 20 km | 172 | Push siste km |
+
+**Referanse:** Jessheim 2023 (1:28:53) – HR 172 ved 5 km. Denne gangen: HR 162 ved 5 km.
+
 ---
 
 # BLOKK 2: AEROB BUILD (Uke 5-8)
