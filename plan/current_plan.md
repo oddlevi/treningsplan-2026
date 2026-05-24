@@ -168,7 +168,7 @@
 | Søn 17.05 🇳🇴 | | Rolig 🟢 | | | *14* | *5:20-5:40/km, HR <130 · 17. mai-tur!* | Hvile |
 | **Total** | | | **41.7** | | *52* | *48 min terskel* | 27 km |
 
-**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<40, stress>50, eller søvn<4t)
+**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<25, stress>50, eller søvn<4t)
 
 ---
 
@@ -189,7 +189,7 @@
 | Søn 24.05 | | Rolig 🟢 | | | *12* | *5:20-5:40/km, HR <130* | Hvile |
 | **Total** | | | **45.9** | | *53* | *30 min terskel* | 34 km |
 
-**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<40, stress>50, eller søvn<4t)
+**Hvile:** 🟢 god (Ready>60, stress<30, søvn>7t) · 🟡 ok · 🔴 dårlig (Ready<25, stress>50, eller søvn<4t)
 
 ---
 
