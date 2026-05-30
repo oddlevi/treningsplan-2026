@@ -208,7 +208,7 @@
 | Fre 29.05 | Hvile ⚪ | | | *-* | *-* | 7 km · 5×1000m @ 3:34 HR 173 |
 | Lør 30.05 | Oppkjøring 🟢 | | | *6* | *5:30-5:50/km + 4×100m strides · Dagen før 10K* | Hvile |
 | Søn 31.05 | 10K RACE 🏁 | | | *10* | *Mål: 36:50-37:10 · Start kl 12:00* | 16.1 km (flere økter) |
-| **Total** | | **0** | | *66* | *68 min terskel* | 42 km |
+| **Total** | | **42.6** | | *66* | *68 min terskel* | 42 km |
 
 ---
 
