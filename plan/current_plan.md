@@ -206,9 +206,9 @@
 | ✅ Ons 27.05 | Rolig 🟢 | **12.4** | **5:52/km, snitt HR 127** | *12* | *5:10-5:25/km, HR 125-135* | Hvile |
 | ✅ Tor 28.05 | Terskel 2 🔴 | **16.1** | **20×300m @ 3:32-3:50/km, maks HR 176** | *14* | *8×4 min @ 3:45-4:00/km (32 min) · HR <175, Pause 75s — **FORMTEST (ny benchmark)*** | 1.9 km ⚽ 80 min |
 | Fre 29.05 | Hvile ⚪ | | | *-* | *-* | 7 km · 5×1000m @ 3:34 HR 173 |
-| Lør 30.05 | Oppkjøring 🟢 | | | *6* | *5:30-5:50/km + 4×100m strides · Dagen før 10K* | Hvile |
+| ✅ Lør 30.05 | Oppkjøring 🟢 | **6.3** | **5:23/km jogg + strides @ 3:07/km** | *6* | *5:30-5:50/km + 4×100m strides · Dagen før 10K* | Hvile |
 | Søn 31.05 | 10K RACE 🏁 | | | *10* | *Mål: 36:50-37:10 · Start kl 12:00* | 16.1 km (flere økter) |
-| **Total** | | **42.6** | | *66* | *68 min terskel* | 42 km |
+| **Total** | | **48.9** | | *66* | *68 min terskel* | 42 km |
 
 ---
 
