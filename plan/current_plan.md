@@ -202,12 +202,12 @@
 | Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|-----|-------:|----------------------|-----:|-----------------|------|
 | Man 25.05 | Hvile ⚪ | | | *-* | *-* | 2.2 km ⚽ 58 min |
-| Tir 26.05 | Terskel 1 🔴 | | | *14* | *6×6 min @ 3:50-4:05/km (36 min) · HR <170, Pause 90s* | 14.5 km (flere økter) |
-| Ons 27.05 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR 125-135* | Hvile |
-| Tor 28.05 | Terskel 2 🔴 | | | *14* | *8×4 min @ 3:45-4:00/km (32 min) · HR <175, Pause 75s — **FORMTEST (ny benchmark)*** | 1.9 km ⚽ 80 min |
+| ✅ Tir 26.05 | Terskel 1 🔴 | **14.1** | **4:51/km, maks HR 179** | *14* | *6×6 min @ 3:50-4:05/km (36 min) · HR <170, Pause 90s* | 14.5 km (flere økter) |
+| ✅ Ons 27.05 | Rolig 🟢 | **12.4** | **5:52/km, snitt HR 127** | *12* | *5:10-5:25/km, HR 125-135* | Hvile |
+| ✅ Tor 28.05 | Terskel 2 🔴 | **16.1** | **5:19/km, maks HR 176** | *14* | *8×4 min @ 3:45-4:00/km (32 min) · HR <175, Pause 75s — **FORMTEST (ny benchmark)*** | 1.9 km ⚽ 80 min |
 | Fre 29.05 | Hvile ⚪ | | | *-* | *-* | 7 km · 5×1000m @ 3:34 HR 173 |
-| Lør 30.05 | Lang tur 🟢 | | | *18* | *5:10-5:25/km, HR 125-135* | Hvile |
-| Søn 31.05 | Restitusjon 🟢 | | | *8* | *5:25-5:45/km, HR <125* | 16.1 km (flere økter) |
+| Lør 30.05 | Oppkjøring 🟢 | | | *6* | *5:30-5:50/km + 4×100m strides · Dagen før 10K* | Hvile |
+| Søn 31.05 | 10K RACE 🏁 | | | *10* | *Mål: 36:50-37:10 · Start kl 12:00* | 16.1 km (flere økter) |
 | **Total** | | **0** | | *66* | *68 min terskel* | 42 km |
 
 ---

@@ -49,12 +49,28 @@ def hent_planlagt_drag_detaljer(dato: str) -> Optional[str]:
 
     plan_text = PLAN_PATH.read_text(encoding='utf-8')
 
-    # Finn datoen i planen (format: "### Tirsdag 12.05" eller "### Torsdag 14.05")
     dt = datetime.strptime(dato, '%Y-%m-%d')
-    dag_måned = dt.strftime('%d.%m')  # f.eks. "12.05"
+    dag_måned = dt.strftime('%d.%m')  # f.eks. "26.05"
+    ukedag_kort = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'][dt.weekday()]
 
-    # Søk etter seksjonen for denne datoen
-    # Mønster: ### Ukedag DD.MM
+    # Prøv tabellformat først: | Tir 26.05 | Terskel 1 🔴 | ... | *14* | *6×6 min @ ...* |
+    table_pattern = rf'\|\s*(?:✅\s*|⏭️\s*)?{ukedag_kort}\s+{dag_måned}\s*\|[^|]+\|[^|]*\|[^|]*\|[^|]*\|([^|]*)\|'
+    table_match = re.search(table_pattern, plan_text)
+
+    if table_match:
+        detaljer = table_match.group(1).strip()
+        # Fjern markdown-stjerner
+        detaljer = re.sub(r'^\*|\*$', '', detaljer).strip()
+        # Søk etter drag-mønster
+        drag_pattern = r'(\d+)\s*[×x]\s*(\d+)\s*min'
+        drag_match = re.search(drag_pattern, detaljer, re.IGNORECASE)
+        if drag_match:
+            antall = drag_match.group(1)
+            varighet = drag_match.group(2)
+            return f"{antall}x{varighet}min"
+        return None
+
+    # Fallback: gammelt header-format
     pattern = rf'###\s+\w+\s+{dag_måned}.*?(?=###|\Z)'
     match = re.search(pattern, plan_text, re.DOTALL)
 
@@ -63,8 +79,6 @@ def hent_planlagt_drag_detaljer(dato: str) -> Optional[str]:
 
     section = match.group(0)
 
-    # Søk etter hovedøkt-mønster: "X × Y min" eller "X×Ymin"
-    # Eksempler: "4 × 6 min", "8×3min", "5 × 7 min"
     drag_pattern = r'(\d+)\s*[×x]\s*(\d+)\s*min'
     drag_match = re.search(drag_pattern, section, re.IGNORECASE)
 
@@ -87,7 +101,43 @@ def hent_planlagt_type(dato: str) -> Optional[str]:
 
     dt = datetime.strptime(dato, '%Y-%m-%d')
     dag_måned = dt.strftime('%d.%m')
+    ukedag_kort = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'][dt.weekday()]
 
+    # Prøv tabellformat først: | Tir 26.05 | Terskel 1 🔴 | ... |
+    table_pattern = rf'\|\s*(?:✅\s*|⏭️\s*)?{ukedag_kort}\s+{dag_måned}\s*\|([^|]+)\|'
+    table_match = re.search(table_pattern, plan_text)
+
+    if table_match:
+        okt_kolonne = table_match.group(1).strip().lower()
+        # Fjern emoji
+        okt_kolonne = re.sub(r'\s*[🔴🟡🟢⚪]\s*', '', okt_kolonne).strip()
+
+        if 'hvile' in okt_kolonne:
+            return 'hvile'
+        elif 'terskel 2' in okt_kolonne:
+            return 'T2'
+        elif 'terskel 1' in okt_kolonne:
+            return 'T1'
+        elif 'lett terskel' in okt_kolonne:
+            return 'T1'
+        elif 'vo2' in okt_kolonne:
+            return 'vo2max'
+        elif '10k-pace' in okt_kolonne:
+            return '10k'
+        elif 'halv-tempo' in okt_kolonne:
+            return 'halv'
+        elif 'lang tur' in okt_kolonne or 'langtur' in okt_kolonne:
+            return 'lang'
+        elif 'rolig' in okt_kolonne or 'restitusjon' in okt_kolonne:
+            return 'rolig'
+        elif 'halvmaraton' in okt_kolonne or '10 km' in okt_kolonne or '10k' in okt_kolonne:
+            return 'race'
+        elif 'fartlek' in okt_kolonne:
+            return 'fartlek'
+        else:
+            return 'økt'
+
+    # Fallback: gammelt header-format
     pattern = rf'###\s+\w+\s+{dag_måned}.*?(?=###|\Z)'
     match = re.search(pattern, plan_text, re.DOTALL)
 
@@ -96,13 +146,10 @@ def hent_planlagt_type(dato: str) -> Optional[str]:
 
     section = match.group(0)
 
-    # Sjekk overskriften først (mer pålitelig)
-    # Format: "### Tirsdag 12.05 – Terskel 1: Lange drag 🔴"
     header_match = re.search(r'###\s+\w+\s+\d+\.\d+\s*[–-]\s*(.+?)(?:\s*[🔴🟡🟢⚪]|$)', section)
     if header_match:
         header = header_match.group(1).lower().strip()
 
-        # Sjekk hvile først (høyest prioritet)
         if 'hvile' in header:
             return 'hvile'
         elif 'terskel 2' in header or 'korte drag' in header:

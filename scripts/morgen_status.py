@@ -254,7 +254,11 @@ def hent_volume_stats(dato: str) -> VolumeStats:
 
 
 def parse_planlagt_okt(dato: str) -> Optional[PlanlagtOkt]:
-    """Parser dagens planlagte økt fra current_plan.md."""
+    """Parser dagens planlagte økt fra current_plan.md.
+
+    Støtter tabellformat:
+    | Dag DD.MM | Økttype 🔴 | | | *Km* | *Detaljer* | 2024 |
+    """
     if not PLAN_PATH.exists():
         return None
 
@@ -266,10 +270,50 @@ def parse_planlagt_okt(dato: str) -> Optional[PlanlagtOkt]:
         dt = datetime.strptime(dato, '%Y-%m-%d')
         dag_maned = dt.strftime('%d.%m')
         ukedag = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag'][dt.weekday()]
+        ukedag_kort = ['Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør', 'Søn'][dt.weekday()]
     except:
         return None
 
-    # Finn økt-header for denne datoen
+    # Søk etter tabellrad med denne datoen
+    # Format: | Man 25.05 | Hvile ⚪ | | | *-* | *-* | ... |
+    # eller: | Tir 26.05 | Terskel 1 🔴 | | | *14* | *6×6 min @ 3:50-4:05/km* | ... |
+    table_pattern = rf'\|\s*(?:✅\s*|⏭️\s*)?{ukedag_kort}\s+{dag_maned}\s*\|([^|]+)\|([^|]*)\|([^|]*)\|([^|]*)\|([^|]*)\|'
+    table_match = re.search(table_pattern, content)
+
+    if table_match:
+        # Parse økttype fra andre kolonne (f.eks. "Terskel 1 🔴")
+        okt_kolonne = table_match.group(1).strip()
+        # Fjern emoji og hent økttype
+        okt_type = re.sub(r'\s*[🔴🟢🟡⚪]\s*$', '', okt_kolonne).strip()
+
+        # Parse distanse fra femte kolonne (*14* eller *-*)
+        dist_kolonne = table_match.group(4).strip()
+        dist_match = re.search(r'\*(\d+(?:\.\d+)?)\*', dist_kolonne)
+        distanse = float(dist_match.group(1)) if dist_match else 0
+
+        # Parse detaljer fra sjette kolonne (*6×6 min @ 3:50-4:05/km (36 min)*)
+        detaljer_kolonne = table_match.group(5).strip()
+        beskrivelse = re.sub(r'^\*|\*$', '', detaljer_kolonne).strip()
+
+        # Parse pace fra detaljer (f.eks. "3:50-4:05/km")
+        pace_match = re.search(r'(\d+:\d+(?:-\d+:\d+)?)/km', beskrivelse)
+        pace = pace_match.group(1) + '/km' if pace_match else ''
+
+        # Parse terskelarbeid fra detaljer (f.eks. "(36 min)")
+        terskel_match = re.search(r'\((\d+)\s*min\)', beskrivelse)
+        terskelarbeid = int(terskel_match.group(1)) if terskel_match else 0
+
+        return PlanlagtOkt(
+            dag=ukedag,
+            dato=dato,
+            type=okt_type,
+            distanse_km=distanse,
+            pace=pace,
+            terskelarbeid_min=terskelarbeid,
+            beskrivelse=beskrivelse
+        )
+
+    # Fallback: prøv gammelt header-format for bakoverkompatibilitet
     # Format: ### Dag DD.MM – Økttype 🔴/🟢/⚪
     pattern = rf'###\s+{ukedag}\s+{dag_maned}\s+[–-]\s+(.+?)\s*[🔴🟢🟡⚪]'
     match = re.search(pattern, content)
@@ -691,6 +735,113 @@ def generer_briefing(dato: str):
         return None
 
 
+def hent_kommende_okter(dato: str, dager: int = 3) -> List[PlanlagtOkt]:
+    """Henter planlagte økter for de neste N dagene."""
+    okter = []
+    for i in range(dager):
+        d = datetime.strptime(dato, '%Y-%m-%d') + timedelta(days=i)
+        okt = parse_planlagt_okt(d.strftime('%Y-%m-%d'))
+        if okt:
+            okter.append(okt)
+    return okter
+
+
+def generer_kosthold_tips(okter: List[PlanlagtOkt]) -> str:
+    """Genererer kort kostholdsanbefaling basert på kommende økter."""
+    if not okter:
+        return "Spis variert og drikk nok vann."
+
+    # Sjekk om det er race/konkurranse
+    for okt in okter:
+        if 'race' in okt.type.lower() or 'konkurranse' in okt.type.lower() or '10k' in okt.type.lower() or 'halvmaraton' in okt.type.lower():
+            return "Karbo-fokus i dag! Pasta, ris, brød. Drikk mye vann. Sportsdrikk før sengetid."
+
+    # Sjekk om det er hard økt i dag eller i morgen
+    harde_typer = ['terskel', 'intervall', 'tempo', 'vo2', 'fartlek']
+    hard_i_dag = okter[0] if okter and any(t in okter[0].type.lower() for t in harde_typer) else None
+    hard_i_morgen = okter[1] if len(okter) > 1 and any(t in okter[1].type.lower() for t in harde_typer) else None
+
+    if hard_i_dag:
+        return "Karbohydrater til frokost/lunsj før økta. Protein + karbo etter. Drikk godt."
+    elif hard_i_morgen:
+        return "Fyll opp karbo-lagrene i dag. Pasta/ris til middag. God søvn prioriteres."
+    elif okter[0] and 'lang' in okter[0].type.lower():
+        return "Langtur i dag – lett frokost, ta med energi på tur. Restituér godt etterpå."
+    elif okter[0] and 'hvile' in okter[0].type.lower():
+        return "Hviledag – spis normalt, fokuser på restitusjon og hydrering."
+    else:
+        return "Normal dag – balansert kosthold, nok protein, hold deg hydrert."
+
+
+def send_morgen_telegram(dato: str):
+    """Sender dagens økt og kostholdsinfo til Telegram."""
+    # Legg til project root i path for å importere utils
+    if str(PROJECT_ROOT) not in sys.path:
+        sys.path.insert(0, str(PROJECT_ROOT))
+
+    try:
+        from utils.telegram import send_message
+    except ImportError as e:
+        console.print(f"[yellow]⚠️ Kunne ikke importere telegram-modul: {e}[/yellow]")
+        return
+
+    metrikker = hent_dagens_metrikker(dato)
+    okt = parse_planlagt_okt(dato)
+    okter = hent_kommende_okter(dato, dager=3)
+    baseline = hent_baseline(dato)
+    volume = hent_volume_stats(dato)
+    hrv_historie = hent_hrv_historie(dato, dager=3)
+
+    # Generer anbefaling
+    signal, anbefaling, _ = generer_anbefaling(metrikker, baseline, volume, okt, hrv_historie)
+    signal_emoji = "🟢" if signal == "GRØNT" else ("🟡" if signal == "GULT" else "🔴")
+
+    # Bygg melding
+    dt = datetime.strptime(dato, '%Y-%m-%d')
+    ukedag = ['Mandag', 'Tirsdag', 'Onsdag', 'Torsdag', 'Fredag', 'Lørdag', 'Søndag'][dt.weekday()]
+
+    lines = [f"☀️ *{ukedag} {dt.strftime('%d.%m')}*"]
+
+    # Status
+    if metrikker:
+        status_parts = []
+        if metrikker.training_readiness > 0:
+            status_parts.append(f"Ready {metrikker.training_readiness}")
+        if metrikker.sleep_hours > 0:
+            status_parts.append(f"Søvn {metrikker.sleep_hours:.1f}t")
+        if status_parts:
+            lines.append(" | ".join(status_parts))
+
+    lines.append("")
+
+    # Dagens økt
+    if okt:
+        lines.append(f"*Dagens økt: {okt.type}*")
+        if okt.distanse_km > 0:
+            lines.append(f"📏 {okt.distanse_km} km")
+        if okt.pace:
+            lines.append(f"⏱️ {okt.pace}")
+        if okt.beskrivelse and okt.beskrivelse != '-':
+            lines.append(f"📝 {okt.beskrivelse}")
+    else:
+        lines.append("*Ingen planlagt økt i dag*")
+
+    lines.append("")
+    lines.append(f"{signal_emoji} {anbefaling}")
+
+    # Kostholdsinfo
+    lines.append("")
+    kosthold = generer_kosthold_tips(okter)
+    lines.append(f"🍽️ {kosthold}")
+
+    # Send
+    melding = "\n".join(lines)
+    if send_message(melding):
+        console.print("[green]✓ Sendt til Telegram[/green]")
+    else:
+        console.print("[yellow]⚠️ Kunne ikke sende til Telegram[/yellow]")
+
+
 def main():
     """CLI entry point."""
     import argparse
@@ -721,6 +872,10 @@ def main():
             if briefing_path:
                 console.print(f"\n[bold]📄 Dagens briefing:[/bold] {briefing_path}")
                 console.print(f"[dim]   Les med: cat rapport/briefing_siste.md[/dim]")
+
+        # Send til Telegram automatisk
+        console.print()
+        send_morgen_telegram(dato)
 
 
 if __name__ == '__main__':
