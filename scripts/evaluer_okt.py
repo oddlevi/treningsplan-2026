@@ -769,6 +769,28 @@ def vis_evaluering(dato: str = None, skip_sync: bool = False):
         except Exception as e:
             console.print(f"[yellow]Kunne ikke generere ukesbrief: {e}[/yellow]")
 
+    # Push til GitHub for å oppdatere Streamlit-appen
+    try:
+        import subprocess
+        result = subprocess.run(
+            ['git', 'diff', '--quiet', 'plan/current_plan.md'],
+            cwd=PROJECT_ROOT,
+            capture_output=True
+        )
+        if result.returncode != 0:  # Filen er endret
+            subprocess.run(['git', 'add', 'plan/current_plan.md'], cwd=PROJECT_ROOT, check=True)
+            dato_lesbar = dato_dt.strftime('%d.%m')
+            subprocess.run(
+                ['git', 'commit', '-m', f'Oppdater plan {dato_lesbar} via okt'],
+                cwd=PROJECT_ROOT,
+                check=True,
+                capture_output=True
+            )
+            subprocess.run(['git', 'push'], cwd=PROJECT_ROOT, check=True, capture_output=True)
+            console.print(f"[green]🌐 Nettside oppdatert[/green]")
+    except Exception as e:
+        console.print(f"[yellow]Kunne ikke oppdatere nettside: {e}[/yellow]")
+
 
 def main():
     """CLI entry point."""
