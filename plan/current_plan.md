@@ -258,30 +258,30 @@
 
 #### Km-for-km pace og HR
 
-| Km | Pace | Mål HR | Fokus |
-|---:|-----:|-------:|-------|
-| 1 | 4:08 | <155 | Hold igjen! La feltet gå |
-| 2 | 4:05 | 158 | Finn rytmen |
-| 3 | 4:05 | 160 | Pust rolig |
-| 4 | 4:03 | 162 | Kontroller |
-| 5 | 4:02 | 163 | **Checkpoint: ~20:25** |
-| 6 | 4:02 | 164 | Stabil |
-| 7 | 4:00 | 165 | Begynn å bygge |
-| 8 | 4:00 | 165 | Jevnt |
-| 9 | 4:00 | 166 | Fokus på form |
-| 10 | 3:58 | 167 | **Checkpoint: ~40:30** |
-| 11 | 3:58 | 167 | Halvveis! |
-| 12 | 3:58 | 168 | Mental styrke |
-| 13 | 3:57 | 168 | Hold formen |
-| 14 | 3:57 | 169 | Kort steglengde |
-| 15 | 3:56 | 170 | **Checkpoint: ~59:45** |
-| 16 | 3:55 | 170 | 5 km igjen |
-| 17 | 3:55 | 171 | Tål ubehaget |
-| 18 | 3:54 | 172 | 3 km igjen |
-| 19 | 3:53 | 173 | Øk kadens |
-| 20 | 3:52 | 174 | Alt du har |
-| 21 | 3:50 | 176+ | **FULLT!** |
-| +0.1 | Sprint | Maks | Mållinje |
+| Km | Pace | Mål HR | 2024 (1:24:12) | 2025 (1:24:25) | Fokus |
+|---:|-----:|-------:|---------------:|---------------:|-------|
+| 1 | 4:08 | <155 | 151 | 151 | Hold igjen! La feltet gå |
+| 2 | 4:05 | 158 | 161 | 166 | Finn rytmen |
+| 3 | 4:05 | 160 | 164 | 162 | Pust rolig |
+| 4 | 4:03 | 162 | 164 | 166 | Kontroller |
+| 5 | 4:02 | 163 | 165 | 167 | **Checkpoint: ~20:25** |
+| 6 | 4:02 | 164 | 165 | 168 | Stabil |
+| 7 | 4:00 | 165 | 164 | 168 | Begynn å bygge |
+| 8 | 4:00 | 165 | 164 | 169 | Jevnt |
+| 9 | 4:00 | 166 | 162 | 167 | Fokus på form |
+| 10 | 3:58 | 167 | 165 | 168 | **Checkpoint: ~40:30** |
+| 11 | 3:58 | 167 | 163 | 166 | Halvveis! |
+| 12 | 3:58 | 168 | 168 | 168 | Mental styrke |
+| 13 | 3:57 | 168 | 167 | 167 | Hold formen |
+| 14 | 3:57 | 169 | 167 | 168 | Kort steglengde |
+| 15 | 3:56 | 170 | 166 | 168 | **Checkpoint: ~59:45** |
+| 16 | 3:55 | 170 | 164 | 167 | 5 km igjen |
+| 17 | 3:55 | 171 | 167 | 168 | Tål ubehaget |
+| 18 | 3:54 | 172 | 169 | 167 | 3 km igjen |
+| 19 | 3:53 | 173 | 172 | 167 | Øk kadens |
+| 20 | 3:52 | 174 | 171 | 169 | Alt du har |
+| 21 | 3:50 | 176+ | 173 | 170 | **FULLT!** |
+| +0.1 | Sprint | Maks | — | — | Mållinje |
 
 #### Passeringstider
 
