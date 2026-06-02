@@ -242,27 +242,86 @@
 
 ### Løpsplan: Halvmaraton 6. juni
 
-**Strategi:** Progressivt løp med HR-kontroll. Start kontrollert, øk basert på HR.
+**Mål:** 1:24-1:26 (kontrollert, ikke all-out)
+**Strategi:** Negativ split med HR-kontroll
 
-**Pace-plan:**
+**Basert på 5K HR-test 02.06:** 4:00/km @ HR 165, "moderat, kontrollert pust, god flyt"
 
-| Segment | Pace | Tid | Akkumulert |
-|---------|-----:|----:|-----------:|
-| 0-5 km | 4:25 | 22:05 | 22:05 |
-| 5-10 km | 4:18-4:20 | ~21:35 | ~43:40 |
-| 10-15 km | 4:10-4:15 | ~21:00 | ~1:04:40 |
-| 15-21.1 km | 4:05-4:10 | ~25:00 | **~1:29-1:30** |
+#### Oppvarming (30 min før start)
 
-**HR-tak (holde igjen):**
+| Tid før start | Aktivitet |
+|---------------|-----------|
+| -30 min | 10 min rolig jogg @ 6:00/km |
+| -20 min | 4 × 100m strides, øk til race-pace |
+| -10 min | Dynamisk tøying, hold varmen |
+| -3 min | Startposisjon, fokus på pust |
+
+#### Km-for-km pace og HR
+
+| Km | Pace | Mål HR | Fokus |
+|---:|-----:|-------:|-------|
+| 1 | 4:08 | <155 | Hold igjen! La feltet gå |
+| 2 | 4:05 | 158 | Finn rytmen |
+| 3 | 4:05 | 160 | Pust rolig |
+| 4 | 4:03 | 162 | Kontroller |
+| 5 | 4:02 | 163 | **Checkpoint: ~20:25** |
+| 6 | 4:02 | 164 | Stabil |
+| 7 | 4:00 | 165 | Begynn å bygge |
+| 8 | 4:00 | 165 | Jevnt |
+| 9 | 4:00 | 166 | Fokus på form |
+| 10 | 3:58 | 167 | **Checkpoint: ~40:30** |
+| 11 | 3:58 | 167 | Halvveis! |
+| 12 | 3:58 | 168 | Mental styrke |
+| 13 | 3:57 | 168 | Hold formen |
+| 14 | 3:57 | 169 | Kort steglengde |
+| 15 | 3:56 | 170 | **Checkpoint: ~59:45** |
+| 16 | 3:55 | 170 | 5 km igjen |
+| 17 | 3:55 | 171 | Tål ubehaget |
+| 18 | 3:54 | 172 | 3 km igjen |
+| 19 | 3:53 | 173 | Øk kadens |
+| 20 | 3:52 | 174 | Alt du har |
+| 21 | 3:50 | 176+ | **FULLT!** |
+| +0.1 | Sprint | Maks | Mållinje |
+
+#### Passeringstider
+
+| Punkt | Tid | Pace snitt |
+|------:|----:|:-----------|
+| 5 km | 20:25 | 4:05/km |
+| 10 km | 40:30 | 4:01/km |
+| 15 km | 59:45 | 3:59/km |
+| 20 km | 1:19:15 | 3:58/km |
+| **Mål** | **~1:24:30** | **3:59/km** |
+
+#### HR-grenser
 
 | Punkt | Maks HR | Hvis over → |
 |------:|--------:|-------------|
-| 5 km | 162 | Hold 4:25 |
-| 10 km | 165 | Hold pace |
-| 15 km | 168 | Ikke øk |
-| 20 km | 172 | Push siste km |
+| 5 km | 165 | Rolig ned til 4:08 |
+| 10 km | 168 | Hold pace, ikke øk |
+| 15 km | 171 | OK, fortsett |
+| 18 km+ | 175+ | Full gass tillatt |
 
-**Referanse:** Jessheim 2023 (1:28:53) – HR 172 ved 5 km. Denne gangen: HR 162 ved 5 km.
+#### Væske og ernæring
+
+| Punkt | Handling |
+|------:|----------|
+| Før start | 2-3 dl vann, 1 gel 15 min før |
+| 5 km | Slurk vann hvis tilgjengelig |
+| 10 km | 1 gel + vann |
+| 15 km | Slurk vann |
+| 18 km | Siste gel hvis nødvendig |
+
+#### Mental strategi
+
+| Fase | Mantra |
+|------|--------|
+| 0-7 km | "Hold igjen. Spar kruttet." |
+| 7-14 km | "Bygg sakte. HR er sjefen." |
+| 14-18 km | "Dette er treningen. Du har gjort dette." |
+| 18-21 km | "Bare 3 km. Tøm tanken." |
+
+**Referanse fra 1:24-pers:** Begge løpt med negativ split, snitt HR ~168-170 bpm.
 
 ---
 
