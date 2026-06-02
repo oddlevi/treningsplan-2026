@@ -232,7 +232,7 @@
 | Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|-----|-------:|----------------------|-----:|-----------------|------|
 | ✅ Man 01.06 | Rolig gange/jogg 🟢 | **10.5** | **3 økter: 7:10, 12:36, 10:56/km, HR 95-110** | *-* | *Aktiv restitusjon* | 1.3 km ⚽ 37 min |
-| Tir 02.06 | 5 km løp 🔴 | | | *9* | *5 km @ ~4:00/km, HR ~165 + opp/ned* | Hvile |
+| ✅ Tir 02.06 | 5 km løp 🔴 | **5.0** | **3:58/km, maks HR 171** | *9* | *5 km @ ~4:00/km, HR ~165 + opp/ned* | Hvile |
 | Ons 03.06 | Rolig 🟢 | | | *5-6* | *5:20-5:40/km, HR <130* | 8 km · 9×610m @ 3:28 HR 171 |
 | Tor 04.06 | Lett rolig 🟢 | | | *5* | *5:30-5:50/km, HR <125* | 14.6 km (flere økter) |
 | Fre 05.06 | Hvile ⚪ | | | *0* | *Reisedag – hvile, drikke, karbolade* | Hvile |
