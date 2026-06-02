@@ -1,8 +1,11 @@
 # Treningsplan 2026 – 4 måneders plan for å slå PR fra 2024
 
-*Marius Bakken / Norsk modell*
+*Marius Bakken / Norsk modell + Markus-inspirert justering*
 
 **Periode:** 11.05.2026 – 28.09.2026 (20 uker)
+
+> **Markus-justeringer:** Basert på analyse av Markus Granaas sin treningsdata (23513 km, 1995 økter).
+> Nøkkelendringer: 5-6 min drag prioritert, dobbeltøkter fra uke 5, lørdags-progresjon, rolig pace 5:20-5:40.
 
 ---
 
@@ -71,21 +74,23 @@
 
 *2024-tall inkluderer all aktivitet (løping + fotball)*
 
-| Blokk | Uker | U1 | U2 | U3 | U4 | **2026** | *2024* | Diff |
-|------:|------|---:|---:|---:|---:|--------:|-------:|-----:|
-| 1 | 1-4 | 52 | 53 | 66 | 42 | **213 km** | *153 km* | +60 |
-| 2 | 5-8 | 55 | 70 | 75 | 50 | **250 km** | *185 km* | +65 |
-| 3 | 9-12 | 70 | 70 | 75 | 50 | **265 km** | *100 km* | +165 |
-| 4 | 13-16 | 70 | 72 | 68 | 45 | **255 km** | *202 km* | +53 |
-| 5 | 17-20 | 55 | 65 | 40 | 31 | **191 km** | *92 km* | +99 |
+| Blokk | Uker | U1 | U2 | U3 | U4 | **2026** | *2024* | Diff | % hard | Intervall |
+|------:|------|---:|---:|---:|---:|--------:|-------:|-----:|-------:|----------:|
+| 1 | 1-4 | 52 | 56 | 60 | 62 | **230 km** | *153 km* | +77 | 15% | 2/7 (29%) |
+| 2 | 5-8 | 65 | 70 | 72 | 73 | **280 km** | *185 km* | +95 | 14% | 2/9 (22%) |
+| 3 | 9-12 | 72 | 76 | 80 | 72 | **300 km** | *100 km* | +200 | 16% | 2/10 (20%) |
+| 4 | 13-16 | 75 | 78 | 72 | 55 | **280 km** | *202 km* | +78 | 11% | 2/10 (20%) |
+| 5 | 17-20 | 60 | 65 | 55 | 30 | **210 km** | *92 km* | +118 | 10% | 2/9 (22%) |
 
-**TOTAL 2026: 1174 km** vs *2024: 732 km* (+60%)
+**TOTAL 2026: 1300 km** vs *2024: 732 km* (+78%)
+
+*% hard = terskel+VO2 minutter / total løpetid. Intervall = harde økter / totalt antall økter.*
 
 **Progresjon mellom blokker:**
-- Blokk 1→2: +37 km (+17%)
-- Blokk 2→3: +15 km (+6%)
-- Blokk 3→4: -10 km (taper mot 10K)
-- Blokk 4→5: -64 km (taper mot halv)
+- Blokk 1→2: +50 km (+22%) + dobbeltøkter starter
+- Blokk 2→3: +20 km (+7%) + lørdags-progresjon starter
+- Blokk 3→4: -20 km (taper mot 10K) + lavere % hard
+- Blokk 4→5: -70 km (taper mot halv)
 
 ---
 
@@ -114,40 +119,45 @@
 
 ## Treningsfilosofi
 
-**Bakken-modellen:** Høyt volum av kontrollert terskeltrening, ekte rolige dager, minimal VO2 Max i base-fase.
+**Bakken-modellen + Markus-prinsipper:** Høyt volum av kontrollert terskeltrening, ekte rolige dager, 5-6 min drag prioritert.
 
-| Prinsipp | Implementering |
-|----------|----------------|
-| To terskeløkter/uke | Tirsdag (lange drag) + Torsdag (korte drag) |
-| Kontrollert intensitet | Laktat 2,5-4,0 mmol/l, "kunne snakket kort" |
-| Ekte rolige dager | Onsdag + Søndag MÅ være sone 2 |
-| Lang tur = rolig | Ingen progresjon, ingen tempo-finish |
+| Prinsipp | Implementering | Markus-innsikt |
+|----------|----------------|----------------|
+| To terskeløkter/uke | Tirsdag (6 min drag) + Torsdag (5 min drag) | 5-6 min = beste 10K-prediktor |
+| Kontrollert tir/tor | 3:55-4:10/km, "holde igjen" | Spare krefter til lørdag |
+| Ekte rolige dager | Onsdag + Søndag @ 5:20-5:40/km | Markus: ~4:45, du: 5:30 |
+| Lørdags-progresjon | Gradvis innføring fra blokk 2 | Markus sin "hemmelige våpen" |
+| Dobbeltøkter | Fra uke 5: morgen 5-6 km før kvalitetsøkt | Øker volum uten lange økter |
+| Konsistens | Maks 1-2 hvildager/uke | Markus: 49 dager streak |
 
 ---
 
 ## Pace-soner
 
-*Justert 14.05 basert på faktiske øktdata. HR = maks HR på drag.*
+*Justert 14.05 + Markus-inspirert rolig pace. HR = maks HR på drag.*
 
 | Sone | Pace | Maks HR | Laktat | Når |
 |------|------|---------|--------|-----|
-| Restitusjon | 5:20-5:45/km | <130 | <1,5 | Oppvarming, nedjogg, pauser |
-| Rolig sone 2 | 5:10-5:25/km | <145 | 1,5-2,0 | Onsdag, søndag, langtur |
-| Terskel 1 | 3:55-4:10/km | <170 | 2,5-3,0 | Tirsdag – lange drag |
-| Terskel 2 | 3:45-4:00/km | 168-174 | 3,0-4,0 | Torsdag – korte drag |
-| VO2 Max | 3:30-3:40/km | 175-182 | 5+ | Kun peak-fase |
+| Restitusjon | 5:30-5:50/km | <125 | <1,5 | Oppvarming, nedjogg, morgenøkt |
+| **Rolig sone 2** | **5:20-5:40/km** | <140 | 1,5-2,0 | Onsdag, søndag, langtur (ekte rolig!) |
+| Terskel tirsdag | 3:55-4:10/km | <170 | 2,5-3,0 | 4-5 × 6 min drag (kontrollert) |
+| Terskel torsdag | 3:50-4:05/km | <172 | 3,0-3,5 | 5-6 × 5 min drag (litt raskere) |
+| **Lørdag progresjon** | **3:45-4:00/km** | 165-175 | 3,5-4,0 | Siste 6-8 km langtur (fra blokk 3) |
+| VO2 Max / 10K-pace | 3:35-3:48/km | 175-182 | 5+ | Kun blokk 4 |
 
 ---
 
 ## Fase-oversikt
 
-| Uke | Volum | Terskelarbeid | Langtur | Fokus |
-|-----|-------|---------------|---------|-------|
-| 1 (11.05) | 52 km | 48 min | 14 km | Etabler rytme |
-| 2 (18.05) | 53 km | 30 min | 18 km | Justert: én terskel + rolig volum |
-| 3 (25.05) | 66 km | 68 min | 18 km | Peak-uke |
-| 4 (01.06) | 42 km | 16 min | 21 km | Nedtrapping → Halvmaraton 06.06 |
-| **Total** | **213 km** | **162 min** | - | - |
+| Uke | Volum | Terskelarbeid | Langtur | Fokus | % hard |
+|-----|-------|---------------|---------|-------|-------:|
+| 1 (11.05) | 52 km | 48 min | 14 km | Etabler rytme | 15% |
+| 2 (18.05) | 56 km | 30 min | 18 km | Justert: én terskel + rolig volum | 11% |
+| 3 (25.05) | 60 km | 68 min | 18 km | Peak-uke, 5-6 min drag | 18% |
+| 4 (01.06) | 62 km | 16 min | 21 km | Nedtrapping → Halvmaraton 06.06 | 5% |
+| **Total** | **230 km** | **162 min** | - | **Snitt 15%** | - |
+
+*Blokk 1: Ingen dobbeltøkter, ingen lørdags-progresjon. Fokus på å etablere 5-6 min drag.*
 
 ---
 ---
@@ -267,83 +277,92 @@
 
 ## Treningsfilosofi
 
-Øke volum og langtur-lengde. Fortsette terskelarbeid, men prioritere utholdenheten (aerob kapasitet). Introdusere lette fartsleker.
+Øke volum med dobbeltøkter. Introdusere lett lørdags-progresjon. Fortsette 5-6 min drag.
 
-| Parameter | Uke 5 | Uke 6 | Uke 7 | Uke 8 |
-|-----------|-------|-------|-------|-------|
-| Volum | 55 km | 70 km | 75 km | 50 km |
-| Terskel | 40 min | 55 min | 60 min | 30 min |
-| Langtur | 16 km | 20 km | 22 km | 14 km |
+| Prinsipp | Implementering |
+|----------|----------------|
+| **Dobbeltøkter starter** | 2/uke: morgen 5-6 km før tir/tor kvalitetsøkt |
+| **Lørdags-progresjon (lett)** | Siste 4 km @ 4:30-4:40 |
+| **Færre hvildager** | Maks 1 hviledag/uke |
+| **Rolig pace** | Hold 5:20-5:40 på alle rolige økter |
 
-**Total blokk 2:** 250 km, 185 min terskel
+| Parameter | Uke 5 | Uke 6 | Uke 7 | Uke 8 | % hard |
+|-----------|-------|-------|-------|-------|-------:|
+| Volum | 65 km | 70 km | 72 km | 73 km | |
+| Terskel | 50 min | 50 min | 60 min | 40 min | |
+| Langtur | 18 km | 20 km | 22 km | 16 km | |
+| Progresjon | 4 km | 4 km | 5 km | — | |
+| **Økter** | **9** | **9** | **10** | **8** | **14%** |
+
+**Total blokk 2:** 280 km, 200 min terskel, 14% hard, 2/9 intervall-økter
 
 ---
 
-## Uke 5 (08.06 – 14.06) – Restitusjon etter halv
+## Uke 5 (08.06 – 14.06) – Restitusjon etter halv + dobbeltøkter starter
 
-**Volum: 55 km | Terskel: 40 min**
+**Volum: 65 km | Terskel: 50 min | Økter: 9 | % hard: 15%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 08.06 | Hvile ⚪ | | | *-* | *-* | 8.5 km ⚽ 64 min |
-| Tir 09.06 | Rolig + strides 🟢 | | | *10* | *5:10-5:25/km, HR <135* | 12.7 km (🏁 10 km 37:24 @ 3:44 HR 175) |
-| Ons 10.06 | Rolig 🟢 | | | *10* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 11.06 | Terskel 1 🔴 | | | *12* | *4×5 min @ 3:55-4:10, HR <170* | 11.9 km · 15×630m @ 3:28 HR 171 |
-| Fre 12.06 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 13.06 | Lang tur 🟢 | | | *16* | *5:10-5:25/km, HR <135* | 9.8 km ⚽ 93 min |
-| Søn 14.06 | Rolig 🟢 | | | *7* | *5:20-5:40/km, HR <130* | 1.7 km ⚽ 63 min |
-| **Total** | | **0** | | *55* | *20 min terskel* | 45 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 08.06 | — | Rolig 8 km 🟢 | *8* | *5:20-5:40/km, HR <140* | 8.5 km ⚽ |
+| **Tir 09.06** | **Rolig 5 km** | **Terskel 4×6 min 🔴** | *17* | *5:30 + 3:55-4:10/km* | 12.7 km |
+| Ons 10.06 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | Hvile |
+| **Tor 11.06** | **Rolig 5 km** | **Terskel 5×5 min 🔴** | *17* | *5:30 + 3:50-4:05/km* | 11.9 km |
+| Fre 12.06 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | Hvile |
+| Lør 13.06 | — | Lang tur 18 km 🟡 | *18* | *14 km @ 5:25 + **4 km @ 4:35*** | 9.8 km ⚽ |
+| Søn 14.06 | — | Restitusjon 7 km 🟢 | *7* | *5:30-5:50/km, HR <130* | 1.7 km ⚽ |
+| **Total** | **10 km** | **73 km** | *65* | *50 min terskel · 2 dobbelt* | 45 km |
 
 ---
 
 ## Uke 6 (15.06 – 21.06) – 10K kontrollert
 
-**Volum: 70 km | Terskel: 55 min**
+**Volum: 70 km | Terskel: 50 min | Økter: 9 | % hard: 14%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 15.06 | Rolig + strides 🟢 | | | *8* | *5:10-5:25/km, HR <135* | 8 km @ 5:20 HR 136 |
-| **Tir 16.06** | **10 KM LØP** 🔴 | | | ***10*** | *Kontrollert, HR 165-175* | 10 km · 8×1000m @ 4:15 HR 160 |
-| Ons 17.06 | Hvile/lett 🟢 | | | *5* | *5:30-5:50/km, HR <125* | 11 km · 11×910m @ 4:06 HR 164 |
-| Tor 18.06 | Terskel 2 🔴 | | | *13* | *10×3 min @ 3:45-4:00, HR 168-174* | 5.4 km @ 4:48 HR 140 |
-| Fre 19.06 | Rolig 🟢 | | | *10* | *5:10-5:25/km, HR <135* | Hvile |
-| Lør 20.06 | Lang tur 🟢 | | | *20* | *5:10-5:25/km, HR <135* | 14.6 km (🏁 10 km 37:05 @ 3:42 HR 181) |
-| Søn 21.06 | Restitusjon 🟢 | | | *9* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *70* | *30 min terskel* | 49 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 15.06 | — | Rolig + strides 8 km 🟢 | *8* | *5:20-5:40/km + 4×100m* | 8 km |
+| **Tir 16.06** | — | **10 KM LØP 🏁** | ***10*** | *Kontrollert, HR 165-175* | 10 km |
+| Ons 17.06 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | 11 km |
+| **Tor 18.06** | **Rolig 5 km** | **Terskel 5×5 min 🔴** | *17* | *5:30 + 3:50-4:05/km* | 5.4 km |
+| Fre 19.06 | — | Rolig 8 km 🟢 | *8* | *5:20-5:40/km, HR <140* | Hvile |
+| Lør 20.06 | — | Lang tur 20 km 🟡 | *20* | *16 km @ 5:25 + **4 km @ 4:35*** | 14.6 km |
+| Søn 21.06 | — | Restitusjon 8 km 🟢 | *8* | *5:30-5:50/km, HR <130* | Hvile |
+| **Total** | **5 km** | **79 km** | *70* | *50 min terskel · 1 dobbelt* | 49 km |
 
 ---
 
 ## Uke 7 (22.06 – 28.06) – Peak volum
 
-**Volum: 75 km | Terskel: 60 min**
+**Volum: 72 km | Terskel: 60 min | Økter: 10 | % hard: 17%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 22.06 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 23.06 | Terskel 1 🔴 | | | *14* | *5×6 min @ 3:55-4:08, HR <170* | 13.3 km · 13×950m @ 4:36 HR 163 |
-| Ons 24.06 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR <135* | 10 km · 10×1000m @ 4:02 HR 165 |
-| Tor 25.06 | Terskel 2 🔴 | | | *14* | *8×4 min @ 3:45-4:00, HR 168-174* | 8.8 km · 8×970m @ 4:01 HR 181 |
-| Fre 26.06 | Hvile ⚪ | | | *-* | *-* | 5.5 km ⚽ 44 min |
-| Lør 27.06 | Lang tur 🟢 | | | *22* | *5:10-5:25/km, HR <135* | 12 km · 12×920m @ 4:47 HR 158 |
-| Søn 28.06 | Restitusjon 🟢 | | | *8* | *5:20-5:40/km, HR <130* | 5.6 km @ 6:29 HR 157 |
-| **Total** | | **0** | | *75* | *60 min terskel* | 55 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 22.06 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | Hvile |
+| **Tir 23.06** | **Rolig 5 km** | **Terskel 5×6 min 🔴** | *17* | *5:30 + 3:55-4:10/km* | 13.3 km |
+| Ons 24.06 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 10 km |
+| **Tor 25.06** | **Rolig 5 km** | **Terskel 6×5 min 🔴** | *17* | *5:30 + 3:50-4:05/km* | 8.8 km |
+| Fre 26.06 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 5.5 km ⚽ |
+| Lør 27.06 | — | Lang tur 22 km 🟡 | *22* | *17 km @ 5:25 + **5 km @ 4:30*** | 12 km |
+| Søn 28.06 | — | Restitusjon 8 km 🟢 | *8* | *5:30-5:50/km, HR <130* | 5.6 km |
+| **Total** | **10 km** | **86 km** | *72* | *60 min terskel · 2 dobbelt* | 55 km |
 
 ---
 
 ## Uke 8 (29.06 – 05.07) – Nedtrapping
 
-**Volum: 50 km | Terskel: 30 min**
+**Volum: 73 km | Terskel: 40 min | Økter: 8 | % hard: 11%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 29.06 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 30.06 | Lett terskel 🟡 | | | *10* | *3×5 min @ 4:15-4:20, HR 158-165* | Hvile |
-| Ons 01.07 | Rolig 🟢 | | | *10* | *5:10-5:25/km, HR <135* | 12.1 km · 10×1000m @ 4:25 HR 160 |
-| Tor 02.07 | Fartlek 🟡 | | | *10* | *6×2 min @ fritt, HR 155-170* | 5.7 km @ 6:05 HR 147 (terreng) |
-| Fre 03.07 | Hvile ⚪ | | | *-* | *-* | 13.6 km · 14×970m @ 4:15 HR 173 |
-| Lør 04.07 | Lang tur 🟢 | | | *14* | *5:10-5:25/km, HR <135* | Hvile |
-| Søn 05.07 | Restitusjon 🟢 | | | *6* | *5:20-5:40/km, HR <130* | 5.6 km ⚽ 68 min |
-| **Total** | | **0** | | *50* | *30 min terskel* | 37 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 29.06 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | Hvile |
+| **Tir 30.06** | **Rolig 5 km** | **Terskel 4×5 min 🟡** | *15* | *5:30 + 4:00-4:15/km (lett)* | Hvile |
+| Ons 01.07 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 12.1 km |
+| **Tor 02.07** | **Rolig 5 km** | **Fartlek 8 km 🟡** | *13* | *5:30 + 6×2 min fritt* | 5.7 km |
+| Fre 03.07 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 13.6 km |
+| Lør 04.07 | — | Lang tur 16 km 🟢 | *16* | *Rolig hele veien, ingen prog.* | Hvile |
+| Søn 05.07 | — | Restitusjon 5 km 🟢 | *5* | *5:30-5:50/km, HR <130* | 5.6 km ⚽ |
+| **Total** | **10 km** | **63 km** | *73* | *40 min terskel · 2 dobbelt* | 37 km |
 
 ---
 ---
@@ -359,84 +378,93 @@
 
 ## Treningsfilosofi
 
-Øke terskel-intensitet og introdusere VO2 Max-intervaller. Halvmaraton 18.07 brukes som hard treningsøkt, ikke race.
+Øke terskel-intensitet. Moderat lørdags-progresjon starter (6 km @ 4:15-4:25). Redusere VO2 til fordel for 5-6 min drag.
 
-| Parameter | Uke 9 | Uke 10 | Uke 11 | Uke 12 |
-|-----------|-------|--------|--------|--------|
-| Volum | 70 km | 70 km | 75 km | 50 km |
-| Terskel | 55 min | 50 min | 60 min | 25 min |
-| VO2 Max | - | 15 min | 18 min | - |
-| Langtur | 18 km | 21 km (halv) | 20 km | 14 km |
+| Prinsipp | Implementering |
+|----------|----------------|
+| **Terskel > VO2** | Mindre VO2, mer 5-6 min drag (Markus-innsikt) |
+| **Lørdags-progresjon (moderat)** | Siste 6 km @ 4:15-4:25 |
+| **3 dobbeltøkter/uke** | Morgen før hver kvalitetsøkt |
+| **Peak-uke** | Uke 11: 80 km |
 
-**Total blokk 3:** 265 km, 190 min terskel, 33 min VO2
+| Parameter | Uke 9 | Uke 10 | Uke 11 | Uke 12 | % hard |
+|-----------|-------|--------|--------|--------|-------:|
+| Volum | 72 km | 76 km | 80 km | 72 km | |
+| Terskel | 60 min | 55 min | 65 min | 30 min | |
+| VO2 Max | — | 12 min | 13 min | — | |
+| Langtur | 20 km | 21 km (halv) | 22 km | 16 km | |
+| Progresjon | 6 km | — | 6 km | — | |
+| **Økter** | **10** | **10** | **11** | **9** | **16%** |
+
+**Total blokk 3:** 300 km, 210 min terskel, 25 min VO2, 16% hard, 2/10 intervall-økter
 
 ---
 
-## Uke 9 (06.07 – 12.07) – Terskel-fokus
+## Uke 9 (06.07 – 12.07) – Terskel-fokus + moderat progresjon
 
-**Volum: 70 km | Terskel: 55 min**
+**Volum: 72 km | Terskel: 60 min | Økter: 10 | % hard: 17%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 06.07 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 07.07 | Terskel 1 🔴 | | | *14* | *5×6 min @ 3:50-4:05, HR <170* | 11.6 km · 12×960m @ 4:18 HR 162 |
-| Ons 08.07 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR <135* | 9 km ⚽ 96 min |
-| Tor 09.07 | Terskel 2 🔴 | | | *13* | *6×4 min @ 3:45-3:55, HR 168-174* | Hvile |
-| Fre 10.07 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 11.07 | Lang tur m/tempo 🟢 | | | *18* | *Siste 5 km @ 4:30, HR <140* | Hvile |
-| Søn 12.07 | Restitusjon 🟢 | | | *8* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *70* | *55 min terskel* | 21 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 06.07 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | Hvile |
+| **Tir 07.07** | **Rolig 5 km** | **Terskel 5×6 min 🔴** | *17* | *5:30 + 3:50-4:05/km* | 11.6 km |
+| Ons 08.07 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 9 km ⚽ |
+| **Tor 09.07** | **Rolig 5 km** | **Terskel 6×5 min 🔴** | *17* | *5:30 + 3:45-4:00/km* | Hvile |
+| Fre 10.07 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | Hvile |
+| Lør 11.07 | — | Lang tur 20 km 🟠 | *20* | *14 km @ 5:25 + **6 km @ 4:20*** | Hvile |
+| Søn 12.07 | — | Restitusjon 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | Hvile |
+| **Total** | **10 km** | **82 km** | *72* | *60 min terskel · 2 dobbelt* | 21 km |
 
 ---
 
 ## Uke 10 (13.07 – 19.07) – Halvmaraton kupert
 
-**Volum: 70 km | Terskel: 50 min | VO2: 15 min**
+**Volum: 76 km | Terskel: 55 min | VO2: 12 min | Økter: 10 | % hard: 18%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 13.07 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 14.07 | VO2 Max 🔴 | | | *12* | *5×1000m @ 3:35-3:45, HR 175-182* | Hvile |
-| Ons 15.07 | Rolig 🟢 | | | *10* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 16.07 | Lett jogg + strides 🟢 | | | *6* | *5:30-5:50/km, HR <130* | 7 km @ 5:01 HR 141 |
-| **Fre 17.07** | Hvile ⚪ | | | *-* | *-* | Hvile |
-| **Lør 18.07** | **HALVMARATON KUPERT** 🔴 | | | ***21*** | *HR 160-170* | Hvile |
-| Søn 19.07 | Hvile/lett 🟢 | | | *5* | *5:30-5:50/km, HR <120* | Hvile |
-| **Total** | | **0** | | *70* | *50 min terskel + 15 min VO2* | 7 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 13.07 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | Hvile |
+| **Tir 14.07** | **Rolig 5 km** | **VO2 4×1000m 🔴** | *15* | *5:30 + 3:38-3:48/km, HR 175-182* | Hvile |
+| Ons 15.07 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | Hvile |
+| Tor 16.07 | — | Lett jogg + strides 6 km 🟢 | *6* | *5:30-5:50 + 4×100m* | 7 km |
+| **Fre 17.07** | — | Rolig 5 km 🟢 | *5* | *5:30-5:50/km, oppkjøring* | Hvile |
+| **Lør 18.07** | — | **HALVMARATON KUPERT 🏁** | ***21*** | *Hard langtur, HR 160-170* | Hvile |
+| Søn 19.07 | — | Restitusjon 6 km 🟢 | *6* | *5:40-6:00/km, HR <120* | Hvile |
+| **Total** | **5 km** | **71 km** | *76* | *55 min terskel + 12 min VO2 · 1 dobbelt* | 7 km |
 
 ---
 
-## Uke 11 (20.07 – 26.07) – Tilbake i rytme
+## Uke 11 (20.07 – 26.07) – Peak-uke (80 km)
 
-**Volum: 75 km | Terskel: 60 min | VO2: 18 min**
+**Volum: 80 km | Terskel: 65 min | VO2: 13 min | Økter: 11 | % hard: 20%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 20.07 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 21.07 | Terskel 1 🔴 | | | *14* | *4×7 min @ 3:50-4:05, HR <170* | Hvile |
-| Ons 22.07 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR <135* | 10 km · 10×1000m @ 3:45 HR 176 |
-| Tor 23.07 | VO2 Max 🔴 | | | *13* | *6×1000m @ 3:35-3:42, HR 175-182* | 10 km · 10×1000m @ 4:46 HR 161 |
-| Fre 24.07 | Rolig 🟢 | | | *8* | *5:10-5:25/km, HR <135* | 5 km @ 5:35 HR 136 |
-| Lør 25.07 | Lang tur 🟢 | | | *20* | *5:10-5:25/km, HR <135* | Hvile |
-| Søn 26.07 | Restitusjon 🟢 | | | *8* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *75* | *60 min terskel + 18 min VO2* | 25 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 20.07 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | Hvile |
+| **Tir 21.07** | **Rolig 5 km** | **Terskel 4×7 min 🔴** | *18* | *5:30 + 3:50-4:05/km* | Hvile |
+| Ons 22.07 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 10 km |
+| **Tor 23.07** | **Rolig 5 km** | **VO2 4×1000m 🔴** | *15* | *5:30 + 3:38-3:48/km* | 10 km |
+| Fre 24.07 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 5 km |
+| Lør 25.07 | — | Lang tur 22 km 🟠 | *22* | *16 km @ 5:25 + **6 km @ 4:20*** | Hvile |
+| Søn 26.07 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | Hvile |
+| **Total** | **10 km** | **93 km** | *80* | *65 min terskel + 13 min VO2 · 2 dobbelt* | 25 km |
 
 ---
 
 ## Uke 12 (27.07 – 02.08) – Nedtrapping
 
-**Volum: 50 km | Terskel: 25 min**
+**Volum: 72 km | Terskel: 30 min | Økter: 9 | % hard: 8%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 27.07 | Hvile ⚪ | | | *-* | *-* | 9 km · 8×1000m @ 4:34 HR 161 |
-| Tir 28.07 | Lett terskel 🟡 | | | *10* | *5×3 min @ 3:55-4:10, HR <170* | 10.7 km · 11×970m @ 4:38 HR 168 |
-| Ons 29.07 | Rolig 🟢 | | | *10* | *5:10-5:25/km, HR <135* | 13 km @ 7:23 HR 154 (terreng) |
-| Tor 30.07 | Rolig + strides 🟢 | | | *8* | *5:10-5:25/km, HR <135* | 14.5 km · 16×560m @ 3:06 HR 168 |
-| Fre 31.07 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 01.08 | Lang tur 🟢 | | | *14* | *5:10-5:25/km, HR <135* | Hvile |
-| Søn 02.08 | Restitusjon 🟢 | | | *6* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *50* | *25 min terskel* | 47 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 27.07 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | 9 km |
+| **Tir 28.07** | **Rolig 5 km** | **Terskel 4×5 min 🟡** | *15* | *5:30 + 4:00-4:15/km (lett)* | 10.7 km |
+| Ons 29.07 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 13 km |
+| Tor 30.07 | — | Rolig + strides 8 km 🟢 | *8* | *5:25 + 4×100m* | 14.5 km |
+| Fre 31.07 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | Hvile |
+| Lør 01.08 | — | Lang tur 16 km 🟢 | *16* | *Rolig hele veien, ingen prog.* | Hvile |
+| Søn 02.08 | — | Restitusjon 5 km 🟢 | *5* | *5:35-5:55/km, HR <125* | Hvile |
+| **Total** | **5 km** | **63 km** | *72* | *30 min terskel · 1 dobbelt* | 47 km |
 
 ---
 ---
@@ -452,88 +480,97 @@
 
 ## Treningsfilosofi
 
-Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace intervaller. Terskel forblir fundament.
+Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace intervaller. Terskel forblir fundament. **Hard lørdags-progresjon** (8 km @ 4:05-4:15) for race-simulering.
+
+| Prinsipp | Implementering |
+|----------|----------------|
+| **10K-pace fokus** | Tirsdager: 1000m @ 3:38-3:48, torsdager: 5 min drag @ 3:45-3:55 |
+| **Lørdags-progresjon (hard)** | Siste 8 km @ 4:05-4:15 (Markus-nivå) |
+| **3 dobbeltøkter/uke** | Morgen før hver kvalitetsøkt |
+| **Taper uke 16** | -35% volum mot 10K race |
 
 **10K pace-soner for sub 37:00:**
 - Mål-pace: 3:42/km
 - Trening: 3:38-3:48/km
 
-| Parameter | Uke 13 | Uke 14 | Uke 15 | Uke 16 |
-|-----------|--------|--------|--------|--------|
-| Volum | 70 km | 72 km | 68 km | 45 km |
-| Terskel | 40 min | 35 min | 30 min | 15 min |
-| VO2/10K-pace | 20 min | 24 min | 20 min | 12 min |
-| Langtur | 18 km | 18 km | 16 km | 10 km |
+| Parameter | Uke 13 | Uke 14 | Uke 15 | Uke 16 | % hard |
+|-----------|--------|--------|--------|--------|-------:|
+| Volum | 75 km | 78 km | 72 km | 55 km | |
+| Terskel | 40 min | 35 min | 30 min | 15 min | |
+| VO2/10K-pace | 20 min | 24 min | 20 min | 12 min | |
+| Langtur | 20 km | 20 km | 18 km | 12 km | |
+| Progresjon | 8 km | 8 km | 6 km | — | |
+| **Økter** | **10** | **10** | **10** | **8** | **11%** |
 
-**Total blokk 4:** 255 km, 120 min terskel, 76 min VO2/race-pace
-
----
-
-## Uke 13 (03.08 – 09.08) – Introduser 10K-pace
-
-**Volum: 70 km | Terskel: 40 min | VO2: 20 min**
-
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 03.08 | Hvile ⚪ | | | *-* | *-* | 11 km @ 4:43 HR 168 |
-| Tir 04.08 | Terskel 1 🔴 | | | *13* | *4×6 min @ 3:50-4:05, HR <170* | 16 km · 11×1390m @ 3:38 HR 178 |
-| Ons 05.08 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 06.08 | 10K-pace 🔴 | | | *12* | *5×1000m @ 3:40-3:48, HR 168-176* | 7 km @ 5:05 HR 137 |
-| Fre 07.08 | Hvile ⚪ | | | *-* | *-* | 10.4 km @ 6:04 HR 144 |
-| Lør 08.08 | Lang tur m/tempo 🟢 | | | *18* | *Siste 4 km @ 4:20, HR <140* | Hvile |
-| Søn 09.08 | Restitusjon 🟢 | | | *8* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *70* | *40 min terskel + 20 min VO2* | 44 km |
+**Total blokk 4:** 280 km, 120 min terskel, 76 min VO2/race-pace, 11% hard, 2/10 intervall-økter
 
 ---
 
-## Uke 14 (10.08 – 16.08) – 10K-pace fokus
+## Uke 13 (03.08 – 09.08) – Introduser 10K-pace + hard progresjon
 
-**Volum: 72 km | Terskel: 35 min | VO2: 24 min**
+**Volum: 75 km | Terskel: 40 min | VO2: 20 min | Økter: 10 | % hard: 16%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 10.08 | Hvile ⚪ | | | *-* | *-* | 10 km @ 5:10 HR 149 |
-| Tir 11.08 | 10K-pace 🔴 | | | *13* | *6×1000m @ 3:38-3:45, HR 168-176* | 13 km (10.5 km @ 4:05 HR 184) |
-| Ons 12.08 | Rolig 🟢 | | | *12* | *5:10-5:25/km, HR <135* | 7.2 km @ 4:50 HR 158 |
-| Tor 13.08 | Terskel 2 🔴 | | | *12* | *5×4 min @ 3:45-3:55, HR 168-174* | Hvile |
-| Fre 14.08 | Rolig 🟢 | | | *8* | *5:10-5:25/km, HR <135* | 1.6 km ⚽ 15 min |
-| Lør 15.08 | Lang tur 🟢 | | | *18* | *5:10-5:25/km, HR <135* | Hvile |
-| Søn 16.08 | Restitusjon 🟢 | | | *9* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *72* | *35 min terskel + 24 min VO2* | 32 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 03.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 11 km |
+| **Tir 04.08** | **Rolig 5 km** | **10K-pace 5×1000m 🔴** | *17* | *5:30 + 3:40-3:48/km, HR 168-176* | 16 km |
+| Ons 05.08 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | Hvile |
+| **Tor 06.08** | **Rolig 5 km** | **Terskel 4×6 min 🔴** | *17* | *5:30 + 3:50-4:05/km, HR <170* | 7 km |
+| Fre 07.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 10.4 km |
+| Lør 08.08 | — | Lang tur 20 km 🟠 | *20* | *12 km @ 5:25 + **8 km @ 4:10*** | Hvile |
+| Søn 09.08 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | Hvile |
+| **Total** | **10 km** | **85 km** | *75* | *40 min terskel + 20 min VO2 · 2 dobbelt* | 44 km |
 
 ---
 
-## Uke 15 (17.08 – 23.08) – Skarphet
+## Uke 14 (10.08 – 16.08) – 10K-pace fokus + peak progresjon
 
-**Volum: 68 km | Terskel: 30 min | VO2: 20 min**
+**Volum: 78 km | Terskel: 35 min | VO2: 24 min | Økter: 10 | % hard: 15%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 17.08 | Hvile ⚪ | | | *-* | *-* | 7 km @ 5:00 HR 152 |
-| Tir 18.08 | 10K-pace 🔴 | | | *12* | *4×1200m @ 3:38-3:45, HR 168-176* | 23.8 km (🏁 21.2 km 1:24:05 @ 3:58 HR 180) |
-| Ons 19.08 | Rolig 🟢 | | | *11* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 20.08 | Terskel + speed 🔴 | | | *12* | *3×5 min @ 4:00 + 4×400m @ 3:25, HR 168-178* | 11 km · 11×490m @ 3:28 HR 162 |
-| Fre 21.08 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 22.08 | Lang tur 🟢 | | | *16* | *5:10-5:25/km, HR <135* | 9.3 km @ 5:19 HR 149 |
-| Søn 23.08 | Restitusjon 🟢 | | | *8* | *5:20-5:40/km, HR <130* | 15.3 km (flere økter) |
-| **Total** | | **0** | | *68* | *30 min terskel + 20 min VO2* | 66 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 10.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 10 km |
+| **Tir 11.08** | **Rolig 5 km** | **10K-pace 6×1000m 🔴** | *18* | *5:30 + 3:38-3:45/km, HR 168-176* | 13 km |
+| Ons 12.08 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | 7.2 km |
+| **Tor 13.08** | **Rolig 5 km** | **Terskel 5×4 min 🔴** | *17* | *5:30 + 3:45-3:55/km, HR 168-174* | Hvile |
+| Fre 14.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 1.6 km ⚽ |
+| Lør 15.08 | — | Lang tur 20 km 🟠 | *20* | *12 km @ 5:25 + **8 km @ 4:08*** | Hvile |
+| Søn 16.08 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | Hvile |
+| **Total** | **10 km** | **88 km** | *78* | *35 min terskel + 24 min VO2 · 2 dobbelt* | 32 km |
+
+---
+
+## Uke 15 (17.08 – 23.08) – Skarphet + moderat progresjon
+
+**Volum: 72 km | Terskel: 30 min | VO2: 20 min | Økter: 10 | % hard: 14%**
+
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 17.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 7 km |
+| **Tir 18.08** | **Rolig 5 km** | **10K-pace 4×1200m 🔴** | *17* | *5:30 + 3:38-3:45/km, HR 168-176* | 23.8 km (PR!) |
+| Ons 19.08 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | Hvile |
+| **Tor 20.08** | **Rolig 5 km** | **Terskel 3×5 min + 4×400m 🔴** | *15* | *5:30 + 4:00 + 3:25/km* | 11 km |
+| Fre 21.08 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | Hvile |
+| Lør 22.08 | — | Lang tur 18 km 🟠 | *18* | *12 km @ 5:25 + **6 km @ 4:12*** | 9.3 km |
+| Søn 23.08 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | 15.3 km |
+| **Total** | **10 km** | **82 km** | *72* | *30 min terskel + 20 min VO2 · 2 dobbelt* | 66 km |
 
 ---
 
 ## Uke 16 (24.08 – 30.08) – Nedtrapping mot 10K
 
-**Volum: 45 km | Terskel: 15 min | VO2: 12 min**
+**Volum: 55 km | Terskel: 15 min | VO2: 12 min | Økter: 8 | % hard: 10%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 24.08 | Hvile ⚪ | | | *-* | *-* | 5.4 km @ 5:36 HR 132 |
-| Tir 25.08 | 10K-pace 🔴 | | | *10* | *3×1000m @ 3:40-3:45, HR 168-176* | 11 km · 8×1310m @ 3:35 HR 170 |
-| Ons 26.08 | Rolig 🟢 | | | *8* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 27.08 | Lett terskel 🟡 | | | *8* | *3×3 min @ 3:55-4:05 + strides, HR <170* | 6 km · 7×860m @ 4:43 HR 162 |
-| Fre 28.08 | Rolig 🟢 | | | *6* | *5:10-5:25/km, HR <130* | 10.4 km (flere økter) |
-| Lør 29.08 | Lett jogg 🟢 | | | *5* | *Lett jogg + 4×100m strides, HR <130* | 27.2 km @ 5:32 HR 170 |
-| Søn 30.08 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| **Total** | | **0** | | *45* | *15 min terskel + 12 min VO2* | 60 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 24.08 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | 5.4 km |
+| **Tir 25.08** | **Rolig 5 km** | **10K-pace 3×1000m 🔴** | *15* | *5:30 + 3:40-3:45/km, HR 168-176* | 11 km |
+| Ons 26.08 | — | Rolig 8 km 🟢 | *8* | *5:20-5:40/km, HR <135* | Hvile |
+| Tor 27.08 | — | Lett terskel 3×3 min + strides 🟡 | *10* | *4:00 + 4×100m strides* | 6 km |
+| Fre 28.08 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | 10.4 km |
+| Lør 29.08 | — | Lang tur 12 km 🟢 | *12* | *Rolig hele veien, ingen prog.* | 27.2 km |
+| Søn 30.08 | — | Hvile ⚪ | *-* | *Total hvile før race* | Hvile |
+| **Total** | **5 km** | **54 km** | *55* | *15 min terskel + 12 min VO2 · 1 dobbelt* | 60 km |
 
 ---
 
@@ -565,70 +602,79 @@ Race-spesifikk trening mot 10K. Øke VO2 Max-arbeid, introdusere 10K-pace interv
 
 ## Treningsfilosofi
 
-Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelintervaller, tempo-løp, lang tur med progresjon.
+Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelintervaller, tempo-løp, lang tur med **race-spesifikk progresjon**.
+
+| Prinsipp | Implementering |
+|----------|----------------|
+| **Halv-tempo fokus** | 8 min drag @ 3:58-4:05 (race-pace) |
+| **Lørdags-progresjon (race-pace)** | Siste 8 km @ 4:00-4:08 |
+| **Taper 53%** | Markus-mønster: -53% race-uke |
+| **2 dobbeltøkter/uke** | Redusert fra 3 pga. taper |
 
 **Halv pace-soner for sub 1:25:**
 - Mål-pace: 4:01/km
 - Trening: 3:58-4:05/km
 
-| Parameter | Uke 17 | Uke 18 | Uke 19 | Uke 20 |
-|-----------|--------|--------|--------|--------|
-| Volum | 55 km | 65 km | 40 km | 31 km |
-| Terskel/tempo | 40 min | 50 min | 20 min | 0 min |
-| Langtur | 16 km | 18 km | - | RACE 21 km |
+| Parameter | Uke 17 | Uke 18 | Uke 19 | Uke 20 | % hard |
+|-----------|--------|--------|--------|--------|-------:|
+| Volum | 60 km | 65 km | 55 km | 30 km | |
+| Terskel/tempo | 40 min | 50 min | 20 min | 0 min | |
+| Langtur | 18 km | 20 km | 14 km | RACE 21 km | |
+| Progresjon | 8 km | 8 km | — | — | |
+| **Økter** | **9** | **10** | **8** | **4** | **10%** |
 
-**Total blokk 5:** 191 km, 110 min terskel/tempo
-
----
-
-## Uke 17 (01.09 – 07.09) – Restitusjon etter 10K
-
-**Volum: 55 km | Terskel: 40 min**
-
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| **Man 01.09** | **10K RACE 🏁** | | | ***10*** | *Mål: Sub 37:00, HR 175-188* | 6 km @ 5:26 HR 143 |
-| Tir 02.09 | Hvile ⚪ | | | *-* | *-* | 9 km · 3×3km @ 3:45 HR 174 |
-| Ons 03.09 | Rolig 🟢 | | | *8* | *5:20-5:40/km, HR <130* | 9.3 km · 6×810m @ 3:54 HR 159 |
-| Tor 04.09 | Halv-tempo 🔴 | | | *12* | *4×5 min @ 4:00-4:05, HR 165-172* | Hvile |
-| Fre 05.09 | Hvile ⚪ | | | *-* | *-* | 4.4 km (strides) |
-| Lør 06.09 | Lang tur 🟢 | | | *16* | *5:10-5:25/km, HR <135* | 11 km (7.2 km @ 3:46 HR 176) |
-| Søn 07.09 | Restitusjon 🟢 | | | *6* | *5:20-5:40/km, HR <130* | Hvile |
-| **Total** | | **0** | | *55* | *40 min terskel* | 40 km |
+**Total blokk 5:** 210 km, 110 min terskel/tempo, 10% hard, 2/9 intervall-økter
 
 ---
 
-## Uke 18 (08.09 – 14.09) – Halv-spesifikk
+## Uke 17 (01.09 – 07.09) – Restitusjon etter 10K + race-pace intro
 
-**Volum: 65 km | Terskel: 50 min**
+**Volum: 60 km | Terskel: 40 min | Økter: 9 | % hard: 13%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 08.09 | Hvile ⚪ | | | *-* | *-* | 4.6 km @ 8:44 HR 121 |
-| Tir 09.09 | Halv-tempo 🔴 | | | *14* | *3×8 min @ 3:58-4:05, HR 165-172* | 8.9 km (🏁 6 km 23:35 @ 3:54 HR 173) |
-| Ons 10.09 | Rolig 🟢 | | | *11* | *5:10-5:25/km, HR <135* | Hvile |
-| Tor 11.09 | Terskel 2 🔴 | | | *13* | *6×4 min @ 3:45-3:55, HR 168-174* | Hvile |
-| Fre 12.09 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 13.09 | Lang tur m/prog 🟡 | | | *18* | *Siste 6 km @ 4:05, HR <140→160* | Hvile |
-| Søn 14.09 | Restitusjon 🟢 | | | *7* | *5:20-5:40/km, HR <130* | 7.9 km ⚽ 70 min |
-| **Total** | | **0** | | *65* | *50 min terskel* | 21 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| **Man 01.09** | — | **10K RACE 🏁** | ***12*** | *2 km oppv. + 10K sub 37:00* | 6 km |
+| Tir 02.09 | — | Hvile ⚪ | *-* | *Total hvile etter race* | 9 km |
+| Ons 03.09 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <130* | 9.3 km |
+| **Tor 04.09** | **Rolig 5 km** | **Halv-tempo 4×5 min 🔴** | *15* | *5:30 + 4:00-4:05/km, HR 165-172* | Hvile |
+| Fre 05.09 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | 4.4 km |
+| Lør 06.09 | — | Lang tur 18 km 🟠 | *18* | *10 km @ 5:25 + **8 km @ 4:05*** | 11 km |
+| Søn 07.09 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | Hvile |
+| **Total** | **5 km** | **65 km** | *60* | *40 min terskel · 1 dobbelt* | 40 km |
+
+---
+
+## Uke 18 (08.09 – 14.09) – Halv-spesifikk peak
+
+**Volum: 65 km | Terskel: 50 min | Økter: 10 | % hard: 15%**
+
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 08.09 | — | Rolig 6 km 🟢 | *6* | *5:25-5:45/km, HR <135* | 4.6 km |
+| **Tir 09.09** | **Rolig 5 km** | **Halv-tempo 3×8 min 🔴** | *18* | *5:30 + 3:58-4:05/km, HR 165-172* | 8.9 km |
+| Ons 10.09 | — | Rolig 10 km 🟢 | *10* | *5:20-5:40/km, HR <140* | Hvile |
+| **Tor 11.09** | **Rolig 5 km** | **Terskel 6×4 min 🔴** | *17* | *5:30 + 3:45-3:55/km, HR 168-174* | Hvile |
+| Fre 12.09 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | Hvile |
+| Lør 13.09 | — | Lang tur 20 km 🟠 | *20* | *12 km @ 5:25 + **8 km @ 4:02*** | Hvile |
+| Søn 14.09 | — | Restitusjon 6 km 🟢 | *6* | *5:35-5:55/km, HR <125* | 7.9 km ⚽ |
+| **Total** | **10 km** | **83 km** | *65* | *50 min terskel · 2 dobbelt* | 21 km |
 
 ---
 
 ## Uke 19 (15.09 – 21.09) – Taper mot halvmaraton
 
-**Volum: 40 km | Terskel: 20 min**
+**Volum: 55 km | Terskel: 20 min | Økter: 8 | % hard: 7%**
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 15.09 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Tir 16.09 | Halv-tempo 🔴 | | | *10* | *2×6 min @ 4:00-4:05, HR 165-172* | 15.3 km (🏁 10 km 36:35 @ 3:39 HR 181) |
-| Ons 17.09 | Rolig 🟢 | | | *8* | *5:20-5:40/km, HR <130* | Hvile |
-| Tor 18.09 | Lett jogg 🟢 | | | *6* | *Lett jogg + 5×100m strides, HR <130* | 1.2 km ⚽ 68 min |
-| Fre 19.09 | Rolig 🟢 | | | *5* | *5:20-5:40/km, HR <125* | Hvile |
-| Lør 20.09 | Hvile/jogg ⚪ | | | *3* | *Valgfri 3 km jogg, HR <120* | Hvile |
-| Søn 21.09 | Hvile ⚪ | | | *-* | *-* | 1.6 km ⚽ 66 min |
-| **Total** | | **0** | | *40* | *20 min terskel* | 18 km |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| Man 15.09 | — | Rolig 8 km 🟢 | *8* | *5:25-5:45/km, HR <135* | Hvile |
+| **Tir 16.09** | **Rolig 5 km** | **Halv-tempo 2×6 min 🟡** | *15* | *5:30 + 4:00-4:05/km (lett)* | 15.3 km (PR!) |
+| Ons 17.09 | — | Rolig 8 km 🟢 | *8* | *5:20-5:40/km, HR <135* | Hvile |
+| Tor 18.09 | — | Lett jogg + strides 8 km 🟢 | *8* | *5:30 + 5×100m strides* | 1.2 km ⚽ |
+| Fre 19.09 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <125* | Hvile |
+| Lør 20.09 | — | Lang tur 14 km 🟢 | *14* | *Rolig hele veien, ingen prog.* | Hvile |
+| Søn 21.09 | — | Hvile ⚪ | *-* | *Total hvile før race* | 1.6 km ⚽ |
+| **Total** | **5 km** | **54 km** | *55* | *20 min terskel · 1 dobbelt* | 18 km |
 
 ---
 
@@ -650,20 +696,20 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 ## Uke 20 (22.09 – 28.09) – HALVMARATON + Restitusjon
 
-**Volum: 31 km | Terskel: 0 min** *(inkl. 21 km race)*
+**Volum: 30 km | Terskel: 0 min | Økter: 4 | % hard: 0%** *(inkl. 21 km race)*
 
 **Fokus:** All-in halvmaraton mandag. Resten av uka er ren restitusjon.
 
-| Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
-|-----|-----|-------:|----------------------|-----:|-----------------|------|
-| **Man 22.09** | **HALVMARATON 🏁** | | | ***21*** | *Mål: Sub 1:25:00 @ 4:01/km, HR 168-182* | — |
-| Tir 23.09 | Hvile ⚪ | | | *-* | *Total hvile* | — |
-| Ons 24.09 | Hvile/gå ⚪ | | | *-* | *Valgfri rolig gåtur 30-45 min* | — |
-| Tor 25.09 | Restitusjon 🟢 | | | *4* | *6:00-6:30/km, HR <120, kun hvis kroppen vil* | — |
-| Fre 26.09 | Hvile ⚪ | | | *-* | *-* | — |
-| Lør 27.09 | Rolig 🟢 | | | *6* | *5:30-5:50/km, HR <130* | — |
-| Søn 28.09 | Hvile ⚪ | | | *-* | *-* | — |
-| **Total** | | **0** | | *31* | *0 min terskel* | — |
+| Dag | 🌅 Morgen | 🌆 Kveld | **Km** | *Planlagt* | 2024 |
+|-----|-----------|----------|-------:|------------|------|
+| **Man 22.09** | — | **HALVMARATON 🏁** | ***23*** | *2 km oppv. + 21 km sub 1:25* | — |
+| Tir 23.09 | — | Hvile ⚪ | *-* | *Total hvile* | — |
+| Ons 24.09 | — | Hvile/gå ⚪ | *-* | *Valgfri rolig gåtur 30-45 min* | — |
+| Tor 25.09 | — | Restitusjon 4 km 🟢 | *4* | *6:00/km, HR <120, kun hvis kroppen vil* | — |
+| Fre 26.09 | — | Hvile ⚪ | *-* | *-* | — |
+| Lør 27.09 | — | Rolig 6 km 🟢 | *6* | *5:30-5:50/km, HR <130* | — |
+| Søn 28.09 | — | Hvile ⚪ | *-* | *-* | — |
+| **Total** | **0 km** | **33 km** | *30* | *0 min terskel · 0 dobbelt* | — |
 
 > **Restitusjonsstrategi etter all-in halvmaraton:**
 > - Dag 1-2: Total hvile, ingen løping
@@ -679,14 +725,28 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 ## Volum og kvalitet per blokk
 
-| Blokk | Uker | Volum | Terskel | VO2/Race |
-|-------|------|-------|---------|----------|
-| 1 – Base | 1-4 | 213 km | 142 min | - |
-| 2 – Aerob | 5-8 | 250 km | 185 min | - |
-| 3 – Terskel | 9-12 | 265 km | 190 min | 33 min |
-| 4 – 10K | 13-16 | 255 km | 120 min | 76 min |
-| 5 – Halv | 17-20 | 191 km | 110 min | - |
-| **Total** | **20 uker** | **1174 km** | **747 min** | **109 min** |
+| Blokk | Uker | Volum | Terskel | VO2/Race | % hard | Intervall | Dobbelt |
+|-------|------|------:|--------:|---------:|-------:|----------:|--------:|
+| 1 – Base | 1-4 | 230 km | 162 min | - | 15% | 2/7 (29%) | 0/uke |
+| 2 – Aerob | 5-8 | 280 km | 200 min | - | 14% | 2/9 (22%) | 2/uke |
+| 3 – Terskel | 9-12 | 300 km | 210 min | 25 min | 16% | 2/10 (20%) | 3/uke |
+| 4 – 10K | 13-16 | 280 km | 120 min | 76 min | 11% | 2/10 (20%) | 2/uke |
+| 5 – Halv | 17-20 | 210 km | 110 min | - | 10% | 2/9 (22%) | 2/uke |
+| **Total** | **20 uker** | **1300 km** | **802 min** | **101 min** | **13%** | | |
+
+*% hard = terskel+VO2 minutter / total løpetid. Intervall = harde økter / totalt antall økter.*
+
+## Markus-inspirerte justeringer
+
+| Prinsipp | Original | Markus-justert |
+|----------|----------|----------------|
+| Total volum | 1174 km | **1300 km** (+11%) |
+| Dobbeltøkter | 0/uke | **2-3/uke** fra blokk 2 |
+| Lørdags-progresjon | Nei | **Gradvis**: ingen → lett → moderat → hard |
+| Rolig pace | 5:10-5:25 | **5:20-5:40** (ekte rolig) |
+| Hvildager | 2-3/uke | **1-2/uke** |
+| Intervall-fokus | 3-4 min | **5-6 min drag** |
+| Tir/Tor pace | Race-tempo | **Kontrollert** (spare til lørdag) |
 
 ## Løpskalender
 
@@ -702,13 +762,13 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 
 **Blokk 1-2 (base):**
 - [ ] 80%+ gjennomførte økter
-- [ ] Terskel i korrekt sone
-- [ ] VO2 Max stigende
+- [ ] Terskel i korrekt sone (5-6 min drag @ 3:55-4:10)
+- [ ] Dobbeltøkter fungerer (ikke for sliten)
 
 **Blokk 3-4 (build):**
+- [ ] Lørdags-progresjon uten å "krasje" søndag
+- [ ] Lang tur 20+ km med 6-8 km hard progresjon
 - [ ] 10K-pace intervaller uten kollaps
-- [ ] Lang tur 20+ km uten veggen
-- [ ] Halvmaraton 18.07 kontrollert
 
 **Blokk 5 (peak):**
 - [ ] Frisk inn mot 10K
@@ -723,3 +783,5 @@ Overgang fra 10K til halv. Bruke 10K-formen som fundament. Lengre terskelinterva
 - Halvmaraton 22.09: Sub 1:25:00
 
 > Konservative mål. La formen overraske.
+>
+> *Markus-inspirert: 5-6 min drag, lørdags-progresjon, ekte rolige dager.*
