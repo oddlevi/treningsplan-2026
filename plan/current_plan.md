@@ -215,20 +215,20 @@
 
 # UKE 4 (Nedtrapping)
 
-**01.06 – 07.06.2026 | Volum: 42 km | Terskel: 16 min**
+**01.06 – 07.06.2026 | Volum: ~30 km før løp | Justert taper**
 
-**Fokus:** Nedtrapping. La kroppen absorbere de siste 3 ukenes arbeid.
+**Fokus:** Nedtrapping mot halvmaraton. Samme mønster som PR-uka 2024 (27 km før race).
 
 | Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|-----|-------:|----------------------|-----:|-----------------|------|
-| ✅ Man 01.06 | Hvile ⚪ | **3.0** | **10:56/km, snitt HR 95** | *-* | *-* | 1.3 km ⚽ 37 min |
-| Tir 02.06 | Lett terskel 🟡 | | | *8* | *4×4 min @ 3:55-4:10/km (16 min) · HR <170, Pause 90s* | Hvile |
-| Ons 03.06 | Hvile ⚪ | | | *-* | *-* | 8 km · 9×610m @ 3:28 HR 171 |
-| Tor 04.06 | Rolig 🟢 | | | *8* | *5:10-5:25/km, HR 125-135* | 14.6 km (flere økter) |
-| Fre 05.06 | Hvile ⚪ | | | *-* | *-* | Hvile |
-| Lør 06.06 | **HALVMARATON** 🟡 | | | *21* | *Treningsløp @ 4:15-4:20/km, HR 155-165 · Mål ~1:30-1:32* | 15 km · 13×1000m @ 4:48 HR 156 |
+| ✅ Man 01.06 | Rolig gange/jogg 🟢 | **10.5** | **3 økter: 7:10, 12:36, 10:56/km, HR 95-110** | *-* | *Aktiv restitusjon* | 1.3 km ⚽ 37 min |
+| Tir 02.06 | 5 km løp 🔴 | | | *9* | *5 km @ ~4:00/km, HR ~165 + opp/ned* | Hvile |
+| Ons 03.06 | Rolig 🟢 | | | *5-6* | *5:20-5:40/km, HR <130* | 8 km · 9×610m @ 3:28 HR 171 |
+| Tor 04.06 | Lett rolig 🟢 | | | *5* | *5:30-5:50/km, HR <125* | 14.6 km (flere økter) |
+| Fre 05.06 | Hvile ⚪ | | | *0* | *Reisedag – hvile, drikke, karbolade* | Hvile |
+| Lør 06.06 | **HALVMARATON** 🏁 | | | *23* | *2 km oppvarming + 21 km race* | 15 km · 13×1000m @ 4:48 HR 156 |
 | Søn 07.06 | Restitusjon 🟢 | | | *5* | *5:30-5:50/km, HR <120 (valgfri)* | 10.5 km (flere økter) |
-| **Total** | | **0** | | *42* | *16 min terskel* | 49 km |
+| **Total før løp** | | **10.5** | | *~30* | | 49 km |
 
 ### Løpsplan: Halvmaraton 6. juni
 
