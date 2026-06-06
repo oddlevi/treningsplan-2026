@@ -236,7 +236,7 @@
 | ✅ Ons 03.06 | Rolig 🟢 | **5.0** | **6:38/km, snitt HR 113** | *5-6* | *5:20-5:40/km, HR <130* | 8 km · 9×610m @ 3:28 HR 171 |
 | ✅ Tor 04.06 | Lett rolig 🟢 | **6.6** | **6:00/km, snitt HR 125** | *5* | *5:30-5:50/km, HR <125* | 14.6 km (flere økter) |
 | Fre 05.06 | Hvile ⚪ | | | *0* | *Reisedag – hvile, drikke, karbolade* | Hvile |
-| Lør 06.06 | **HALVMARATON** 🏁 | | | *23* | *2 km oppvarming + 21 km race* | 15 km · 13×1000m @ 4:48 HR 156 |
+| ✅ Lør 06.06 | **HALVMARATON** 🏁 | **21.2** | **4:09/km, maks HR 181** | *23* | *2 km oppvarming + 21 km race* | 15 km · 13×1000m @ 4:48 HR 156 |
 | Søn 07.06 | Restitusjon 🟢 | | | *5* | *5:30-5:50/km, HR <120 (valgfri)* | 10.5 km (flere økter) |
 | **Total før løp** | | **10.5** | | *~30* | | 49 km |
 
