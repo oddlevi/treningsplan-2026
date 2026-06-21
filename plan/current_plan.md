@@ -230,7 +230,7 @@
 
 # UKE 4 (Nedtrapping)
 
-**01.06 – 07.06.2026 | Volum: ~30 km før løp | Justert taper**
+**01.06 – 07.06.2026 | Volum: 48.3 km (inkl. halvmaraton) | Justert taper**
 
 **Fokus:** Nedtrapping mot halvmaraton. Samme mønster som PR-uka 2024 (27 km før race).
 
@@ -243,7 +243,7 @@
 | Fre 05.06 | Hvile ⚪ | | | *0* | *Reisedag – hvile, drikke, karbolade* | Hvile |
 | ✅ Lør 06.06 | **HALVMARATON** 🏁 | **21.2** | **1:28:19 @ 4:09/km, maks HR 181 · Hardere enn planlagt** | *23* | *2 km oppvarming + 21 km race* | 15 km · 13×1000m @ 4:48 HR 156 |
 | ⏭️ Søn 07.06 | Restitusjon 🟢 | **—** | **Reise** | *5* | *5:30-5:50/km, HR <120 (valgfri)* | 10.5 km (flere økter) |
-| **Total før løp** | | **27.1** | | *~30* | | 49 km |
+| **Total** | | **48.3** | **27.1 + 21.2 km løp** | *~53* | | 49 km |
 
 ### Halvmaraton 6. juni – GJENNOMFØRT
 
