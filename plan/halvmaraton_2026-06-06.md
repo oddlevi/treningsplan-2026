@@ -1,91 +1,60 @@
-# Halvmaraton 6. juni 2026 – Løpsplan
+# Halvmaraton 6. juni 2026 – GJENNOMFØRT
 
-## Mål
+## Resultat
 
-| Scenario | Tid | Snitt pace |
-|----------|----:|----------:|
-| Konservativ | 1:31:30 | 4:20/km |
-| Moderat | 1:29:30 | 4:14/km |
-| Aggressiv | 1:28:00 | 4:10/km |
-
----
-
-## Strategi: Progressivt løp med HR-kontroll
-
-Start kontrollert på 4:25/km, øk progressivt basert på HR-respons.
-
-### Pace-plan
-
-| Segment | Pace | Segment-tid | Akkumulert |
-|---------|-----:|------------:|-----------:|
-| 0-5 km | 4:25 | 22:05 | 22:05 |
-| 5-10 km | 4:18-4:20 | 21:30-21:40 | ~43:45 |
-| 10-15 km | 4:10-4:15 | 20:50-21:15 | ~1:05:00 |
-| 15-21.1 km | 4:05-4:10 | 24:55-25:25 | **~1:29-1:30** |
-
-### HR-tak (holde igjen)
-
-| Punkt | Maks HR | Handling hvis over |
-|------:|--------:|-------------------|
-| 5 km | 162 | Hold 4:25, ikke øk |
-| 10 km | 165 | Hold pace, ikke øk |
-| 15 km | 168 | Vurder å holde tilbake |
-| 20 km | 172 | Alt ok, push siste km |
-
-### Beslutningspunkter
-
-| Ved km | HR | Beslutning |
-|-------:|---:|------------|
-| 5 | <160 | Øk til 4:18 |
-| 5 | 160-162 | Øk forsiktig til 4:20 |
-| 5 | >162 | Hold 4:25 |
-| 10 | <163 | Øk til 4:10 |
-| 10 | 163-165 | Øk til 4:15 |
-| 10 | >165 | Hold pace |
-| 15 | <168 | Push til 4:05 |
-| 15 | >170 | Hold, ikke øk |
+| Metrikk | Mål | Faktisk | Vurdering |
+|---------|-----|---------|-----------|
+| **Tid** | 1:29-1:30 | **1:28:19** | ✅ Bedre enn mål! |
+| **Pace** | 4:10-4:14/km | **4:09/km** | ✅ I øvre sjikt |
+| **Snitt HR** | <170 | **167** | ✅ Kontrollert |
+| **Maks HR** | <175 | **181** | ⚠️ Høyt mot slutten |
 
 ---
 
-## Referanse: Jessheim 2023 (1:28:53)
+## Oppsummering
 
-| Punkt | Pace | HR |
-|------:|-----:|---:|
-| 5 km | 4:14 | 172 |
-| 10 km | 4:15 | 172 |
-| 15 km | 4:14 | 174 |
-| 20 km | 4:05 | 174 |
+**Distanse:** 21.22 km
+**Tid:** 1:28:19
+**Snitt pace:** 4:09/km
+**HR:** Snitt 167, Maks 181
 
-Du gikk ut for hardt (HR 172 ved 5 km). Denne gangen: HR 162 ved 5 km.
+### Vurdering
 
----
+Løpet ble gjennomført som en kontrollert hard langtur i comeback-fasen. Resultatet (1:28:19) var bedre enn det konservative målet (1:29-1:30), men ~4 min saktere enn PB (1:24:12).
 
-## Nåværende form vs 2023
+**Positive:**
+- Snitt HR 167 = godt kontrollert mesteparten av løpet
+- Raskere enn forventet basert på treningsform
+- Gjennomført uten problemer
 
-| Metrikk | 2023 | 2026 | Diff |
-|---------|------|------|-----:|
-| Terskel-pace | ~4:00/km | ~4:15/km | +15 sek |
-| Form-gap | — | — | ~16 sek/km |
-
-Forventet realistisk tid: **1:29-1:32**
-
----
-
-## Dagen før
-
-- [ ] Sjekk værmelding
-- [ ] Planlegg frokost (2-3t før start)
-- [ ] Legg frem utstyr
-- [ ] Last ned løype på klokke
-- [ ] Sett opp HR-varsler: 162/165/168
-
-## Morgen løpsdagen
-
-- [ ] Lett frokost
-- [ ] 10-15 min oppvarming
-- [ ] 3-4 strides
-- [ ] Start ROLIG – HR <162 første 5 km!
+**Lærdommer:**
+- Maks HR 181 viser at det ble presset hardt mot slutten
+- Pace ved HR 167 = 4:09/km (vs. 3:59/km ved PB)
+- ~10 sek/km forbedring trengs for å nå sub 1:25
 
 ---
 
-*Generert 24.05.2026*
+## Sammenligning med tidligere løp
+
+| Løp | Tid | Pace | Snitt HR |
+|-----|----:|-----:|--------:|
+| **2026-06-06** | **1:28:19** | **4:09** | **167** |
+| 2025 PB | 1:24:25 | 4:00 | 168 |
+| 2024 PB | 1:24:12 | 3:59 | 169 |
+
+**Gap til PB:** ~4 min / ~10 sek/km
+
+---
+
+## Implikasjon for høstmål (sub 1:25)
+
+- Nåværende kapasitet: ~1:26-1:28 (all-out)
+- Mål 22.09: sub 1:25:00 (4:01/km)
+- Forbedring trengs: ~6-8 sek/km ved samme HR
+- Tid til mål: 15 uker systematisk trening
+
+**Realistisk:** Ja, med fokus på terskelarbeid og aerob kapasitet.
+
+---
+
+*Oppdatert 22.06.2026*
