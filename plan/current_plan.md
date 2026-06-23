@@ -373,8 +373,8 @@
 
 | Dag | Økt | **Km** | **Gjennomført 2026** | *Km* | *Planlagt 2026* | 2024 |
 |-----|-----|-------:|----------------------|-----:|-----------------|------|
-| Man 22.06 | Hvile ⚪ | | | *—* | *Hvile (langtur i går)* | Hvile |
-| **Tir 23.06** | **Terskel 5×5 min 🔴** | | | *12* | *4:00-4:10/km, HR <170* | 13.3 km |
+| ✅ Man 22.06 | Hvile ⚪ | **—** | **Hvile** | *—* | *Hvile (langtur i går)* | Hvile |
+| ✅ **Tir 23.06** | **Terskel 🔴** | **12.0** | **3 km oppv + 7 km @ 3:47, HR 169/180 + 2 km nedjogg** | *12* | *4:00-4:10/km, HR <170* | 13.3 km |
 | Ons 24.06 | Rolig 🟢 | | | *10* | *5:20-5:40/km, HR <140* | 10 km |
 | **Tor 25.06** | **Terskel 8×3 min 🔴** | | | *12* | *3:50-4:00/km, HR <172* | 8.8 km |
 | Fre 26.06 | Hvile ⚪ | | | *—* | *—* | 5.5 km ⚽ |
